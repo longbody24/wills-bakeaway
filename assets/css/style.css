@@ -118,16 +118,52 @@ body {
     text-align: center;
 }
 
-#email-sign up {
-    background-color: blue;
+/* ---------Footer Section - Email --------- */
+
+#email-sign-up {
+    background-color: #f2f2f2;
+    padding: 10px;
 }
 
-#footer-nav up {
+#email-sign-up h3 {
+    margin-bottom: 10px;
+}
+
+#email-sign-up #email-submit {
+    background-color: orange;
+    border: 1px solid #3a3a3a;
+    color: #f2f2f2;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+#email-sign-up #email-submit:hover {
+    color: #fff;
+}
+
+#email-sign-up #email-submit:hover {
+    background-color: green;
+}
+
+#email-sign-up #email-box {
+    background-color: #fff;
+    width: 15%;
+    border: 1px solid #3a3a3a;
+    padding: 10px 20px;
+}
+
+
+
+/* ---------Footer Section - Nav Links--------- */
+
+#footer-nav {
     background-color: orange;
     
 }
 
-#social-links up {
+/* ---------Footer Section - Social Links --------- */
+#social-links {
     background-color: green;
     
 }
