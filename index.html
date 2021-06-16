@@ -29,8 +29,8 @@
                     <a href="#">Contact</a>
                 </div>
                 <div id="header-nav-right">
-                    <a href="">My Account</a>
-                    <a href="">Search</a>
+                    <a href="#">/Register</a><a href="#">Login</a>
+                    <button type="submit"><i class="fa fa-search"></i></button>
                 </div>
             </div>
         </nav>
@@ -58,8 +58,13 @@
 
             </div>
             <div id="body-right">
-                <h2>Slideshow</h2>
-
+                    <img class="myslides" src="assets/images/hpslideshow/slide-1.jpg" alt="slide1">
+                    <!--<img class="myslides" src="assets/images/hpslideshow/slide-2.jpg" alt="slide2">
+                    <img class="myslides" src="assets/images/hpslideshow/slide-3.jpg" alt="slide3">
+                    <img class="myslides" src="assets/images/hpslideshow/slide-4.jpg" alt="slide4">
+                    <img class="myslides" src="assets/images/hpslideshow/slide-5.jpg" alt="slide5">
+                    <img class="myslides" src="assets/images/hpslideshow/slide-6.jpg" alt="slide6">
+                    <img class="myslides" src="assets/images/hpslideshow/slide-7.jpg" alt="slide7">-->
             </div>
         </div>
     </section>
@@ -118,6 +123,22 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/0eab38ec3c.js" crossorigin="anonymous"></script>
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
 </body>
 
 </html>

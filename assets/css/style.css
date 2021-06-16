@@ -25,6 +25,7 @@ body {
 #header-wrapper {
     overflow: hidden;
     background-color: #fff;
+    color: #742e2a;
 }
 
 #header-logo {
@@ -49,13 +50,22 @@ body {
 }
 
 #header-nav-right a {
+    display: flex;
     float: right;
     color: #742e2a;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     padding: 50px 20px;
+}
+
+#header-nav-right button {
+    color: #742e2a;
+    float: right;
+    padding: 50px 20px;
+    font-size: 18px;
+    background-color: #fff;
 }
 
 /* ---------Body Section--------- */
@@ -63,13 +73,13 @@ body {
 #body-wrapper {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
+    height: auto;
 }
 
 #body-left {
     width: 50%;
     float: left;
     padding: 10px 10px;
-    /*text-align: center;*/
 }
 
 #body-left p {
@@ -80,16 +90,6 @@ body {
 #body-left h1 {
     text-align: center;
     padding: 10px 90px 0 90px;
-}
-
-#body-right {
-    float: right;
-    width: 50%;
-    height: auto;
-    text-align: center;
-    padding: 10px 10px;
-    background-color: black;
-
 }
 
 #body-left button {
@@ -109,6 +109,21 @@ body {
     background-color: green;
 }
 
+/* ---------Slide Show ref: https://codepen.io/daysahead/pen/mJqBge--------- */
+#body-right {
+    float: right;
+    max-width: 50%;
+    height: 50%;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#body-right img {
+    width: auto;
+    height: auto;
+    object-fit:cover;
+}
+    
 /* ---------Footer Section--------- */
 
 #footer-wrapper {
