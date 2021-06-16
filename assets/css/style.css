@@ -47,7 +47,6 @@ body {
     padding: 50px 20px;
 }
 
-
 #header-nav-right a {
     float: right;
     color: #742e2a;
@@ -56,4 +55,29 @@ body {
     font-size: 18px;
     text-transform: uppercase;
     padding: 50px 20px;
+}
+
+/* ---------Body Section--------- */
+
+#body-wrapper {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#body-left {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+#body-left p {
+    text-align: left;
+    padding: 10px 90px 0 90px;
+}
+
+#body-right {
+    float: right;
+    width: 50%;
+    text-align: center;
+
 }
