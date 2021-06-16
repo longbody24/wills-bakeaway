@@ -11,24 +11,30 @@ body {
 
 }
 
+/* ---------Benefit Bar --------- */
+#benefit-bar {
+    background-color: #742e2a;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 5px;
+}
+
 /* ---------Header Section--------- */
 
 #header-wrapper {
     overflow: hidden;
     background-color: #f2f2f2;
-    height: 199px;
 }
 
 #header-logo {
     float: left;
-    height: 150px;
 }
 
 #header-logo img {
     float: left;
-    height: 100%;
+    height: 120px;
     width: auto;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 #header-nav-left a {
