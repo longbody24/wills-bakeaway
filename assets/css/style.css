@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:red;
+    /*background-color:red;*/
     width: 100%;
     height: auto;
 
@@ -23,7 +23,7 @@ body {
 
 #header-wrapper {
     overflow: hidden;
-    background-color: #f2f2f2;
+    background-color: #fff;
 }
 
 #header-logo {
@@ -67,10 +67,15 @@ body {
     width: 50%;
     float: left;
     padding: 10px 10px;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 #body-left p {
+    text-align: center;
+    padding: 10px 90px 0 90px;
+}
+
+#body-left h1 {
     text-align: center;
     padding: 10px 90px 0 90px;
 }
@@ -106,9 +111,23 @@ body {
     /* issue with footer not displaying in the footer solved using 
      https://stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing */
     display: flex;
-    min-height: 100vh;
+    min-height: 20vh;
     flex-direction: column;
     justify-content: space-between;
-    background-color: yellow;
     width: 100%;
+    text-align: center;
+}
+
+#email-sign up {
+    background-color: blue;
+}
+
+#footer-nav up {
+    background-color: orange;
+    
+}
+
+#social-links up {
+    background-color: green;
+    
 }
