@@ -5,9 +5,10 @@
 }
 
 body {
-    /*background-color:red;*/
     width: 100%;
     height: auto;
+    color: #3a3a3a;
+
 
 }
 
@@ -44,7 +45,7 @@ body {
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
-    padding: 50px 20px;
+    padding: 50px 30px;
 }
 
 #header-nav-right a {
@@ -61,6 +62,7 @@ body {
 
 #body-wrapper {
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
 }
 
 #body-left {
@@ -83,8 +85,10 @@ body {
 #body-right {
     float: right;
     width: 50%;
+    height: auto;
     text-align: center;
     padding: 10px 10px;
+    background-color: black;
 
 }
 
@@ -159,9 +163,35 @@ body {
 /* ---------Footer Section - Nav Links--------- */
 
 #footer-nav {
-    background-color: orange;
-    
+    display: flex;
+    background-color: #f2f2f2;  
+    text-align: center; 
+    padding: 10px 0;
 }
+
+#footer-nav ul {
+    list-style-type: none;
+}
+
+#footer-nav h3 {
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#footer-left {
+    width: 33%;
+}
+
+
+#footer-right {
+    width: 33%;
+}
+
+#footer-center {
+    width: 33%;
+}
+
 
 /* ---------Footer Section - Social Links --------- */
 #social-links {
