@@ -5,5 +5,33 @@
 }
 
 body {
-    background-color: red;
+    background-color:red;
+    width: 100%;
+    height: auto;
+
+}
+
+#header-wrapper {
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+
+#header-nav-left a {
+    float: left;
+    color: #742e2a;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+#header-nav-right a {
+    float: right;
+    color: #742e2a;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 18px;
+    text-transform: uppercase;
 }
