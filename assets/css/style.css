@@ -11,9 +11,24 @@ body {
 
 }
 
+/* ---------Header Section--------- */
+
 #header-wrapper {
     overflow: hidden;
     background-color: #f2f2f2;
+    height: 199px;
+}
+
+#header-logo {
+    float: left;
+    height: 150px;
+}
+
+#header-logo img {
+    float: left;
+    height: 100%;
+    width: auto;
+    padding-left: 20px;
 }
 
 #header-nav-left a {
@@ -22,9 +37,10 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 18px;
-    padding: 18px;
     text-transform: uppercase;
+    padding: 50px 20px;
 }
+
 
 #header-nav-right a {
     float: right;
@@ -32,6 +48,6 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 18px;
-    padding: 18px;
     text-transform: uppercase;
+    padding: 50px 20px;
 }
