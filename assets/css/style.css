@@ -165,6 +165,15 @@ body {
 
 /* ---------Footer Section - Social Links --------- */
 #social-links {
-    background-color: green;
+    background-color: #742e2a;
+    height: 20%;
+    padding: 10px 0;
+    font-size: 24px;
     
+}
+
+#social-links a {
+    padding: 0 20px 0 20px;
+    text-decoration: none;
+    color: whitesmoke;
 }
