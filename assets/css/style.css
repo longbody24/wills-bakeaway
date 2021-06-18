@@ -119,8 +119,9 @@ body {
 }
 
 #body-right img {
-    width: auto;
-    height: auto;
+    max-width: 70%;
+    max-height: auto;
+    
     object-fit:cover;
 }
     
@@ -172,41 +173,6 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
 }
-
-
-
-/* ---------Footer Section - Nav Links--------- */
-
-#footer-nav {
-    display: flex;
-    background-color: #f2f2f2;  
-    text-align: center; 
-    padding: 10px 0;
-}
-
-#footer-nav ul {
-    list-style-type: none;
-}
-
-#footer-nav h3 {
-    padding: 5px 0;
-    text-transform: uppercase;
-    font-size: 15px;
-}
-
-#footer-left {
-    width: 33%;
-}
-
-
-#footer-right {
-    width: 33%;
-}
-
-#footer-center {
-    width: 33%;
-}
-
 
 /* ---------Footer Section - Social Links --------- */
 #social-links {
