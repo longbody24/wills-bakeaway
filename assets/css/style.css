@@ -18,7 +18,7 @@ body {
 #header-wrapper {
     overflow: hidden;
     background-color: #fff;
-    color: #742e2a;
+    color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
 
@@ -35,7 +35,7 @@ body {
 
 #header-nav-left a {
     float: left;
-    color: #742e2a;
+    color: #3a3a3a;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
@@ -46,7 +46,7 @@ body {
 #header-nav-right a {
     display: flex;
     float: right;
-    color: #742e2a;
+    color: #3a3a3a;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
@@ -55,7 +55,7 @@ body {
 }
 
 #header-nav-right button {
-    color: #742e2a;
+    color: #3a3a3a;
     float: right;
     padding: 50px 20px;
     font-size: 18px;
@@ -234,5 +234,5 @@ body {
     text-decoration: none;
     color: whitesmoke;
     padding: 0 0 10px 0;
-    font-size: 1.17rem;
+    font-size: 1.17gitrem;
 }
