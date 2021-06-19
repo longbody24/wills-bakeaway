@@ -15,9 +15,6 @@
 <body>
     <!------Header Section------->
     <header>
-        <div id="benefit-bar">
-            <p>Local Delivery & Collection | Nationwide delivery.</p>
-        </div>
         <nav>
             <div id="header-wrapper">
                 <div id="header-logo">
@@ -58,10 +55,24 @@
 
             </div>
             <div id="body-right">
-                    <img class="myslides" src="assets/images/hpslideshow/slide-1.jpg" alt="slide1">
+                <img class="myslides" src="assets/images/hpslideshow/slide-1.jpg" alt="slide1">
             </div>
         </div>
     </section>
+
+    <!-------Benefit Bar--------->
+    <div id="benefit-bar-container">
+        <div id="benefit-left">
+            <h4><i class="fas fa-child"></i> Great way to introduce kids to baking.</h4>
+        </div>
+        <div id="benefit-right">
+            <h4><i class="fas fa-shipping-fast"></i> Nationwide delivery £3.95</h4>
+        </div>
+        <div id="benefit-center">
+            <h4><i class="fas fa-gift"></i> The perfect gift</h4>
+        </div>
+    </div>
+
     <!------Footer Section------->
     <footer>
         <div id="footer-wrapper">
@@ -82,22 +93,7 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/0eab38ec3c.js" crossorigin="anonymous"></script>
-    <script>
-        var myIndex = 0;
-        carousel();
-        
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-          }
-          myIndex++;
-          if (myIndex > x.length) {myIndex = 1}    
-          x[myIndex-1].style.display = "block";  
-          setTimeout(carousel, 2000); // Change image every 2 seconds
-        }
-        </script>
+
 </body>
 
 </html>

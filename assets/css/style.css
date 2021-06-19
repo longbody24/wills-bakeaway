@@ -12,14 +12,6 @@ body {
 
 }
 
-/* ---------Benefit Bar --------- */
-#benefit-bar {
-    background-color: #742e2a;
-    text-align: center;
-    color: #f2f2f2;
-    padding: 5px;
-}
-
 /* ---------Header Section--------- */
 
 #header-wrapper {
@@ -109,7 +101,7 @@ body {
     background-color: green;
 }
 
-/* ---------Slide Show ref: https://codepen.io/daysahead/pen/mJqBge--------- */
+
 #body-right {
     float: right;
     max-width: 50%;
@@ -123,6 +115,34 @@ body {
     max-height: auto;
     
     object-fit:cover;
+}
+
+/* ---------Benefit Bar --------- */
+#benefit-bar-container {
+    display: flex;
+    background-color: #742e2a;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 10px;
+    height: 30px;
+    max-width: 100%;
+}
+
+#benefit-left {
+    float: left;
+    padding: 10px 90px;
+    width: 33%;
+}
+#benefit-right {
+    float: right;
+    padding: 10px 90px;
+    width: 33%;
+}
+#benefit-center {
+    float: left;
+    padding: 10px 90px;
+    max-width: 33%;
+    width: 33%;
 }
     
 /* ---------Footer Section--------- */
