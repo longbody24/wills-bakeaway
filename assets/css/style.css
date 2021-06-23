@@ -53,10 +53,6 @@ h4 {
     font-family: 'Lato', sans-serif;
 }
 
-.ham_menu {
-    display: none;
-}
-
 #header-wrapper a:hover {
     color: green;
 }
@@ -100,6 +96,29 @@ h4 {
     font-size: 18px;
     background-color: #fff;
     border: 0;
+}
+
+/* ---------Responsive Header Media Query - Mobile --------- */
+
+@media screen and (max-width: 950px) {
+
+    #header-nav-left {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #header-nav-left a {
+        padding: 10px 10px;
+    }
+
+    #benefit-bar-container {
+        display: inline-block;
+        border: none;
+    }
+
 }
 
 /* ---------Body Section--------- */
@@ -180,7 +199,7 @@ h4 {
     object-fit: cover;
 }
 
-/* ---------Responsive BODY Media Querys--------- */
+/* ---------Responsive BODY Media Querys - TABLET --------- */
 
 @media only screen and (max-width: 1200px) {
 
