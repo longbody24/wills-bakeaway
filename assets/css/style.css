@@ -96,6 +96,7 @@ body {
     text-transform: uppercase;
     border-radius: 10px;
     font-family: 'Lato', sans-serif;
+    cursor: pointer;
 }
 
 #body-center button:hover {
@@ -139,7 +140,7 @@ body {
 #benefit-bar-container {
     display: flex;
     text-align: center;
-    color: #742e2a;
+    color: #3a3a3a;
     padding: 10px 30px 10px 30px;
     max-width: 100%;
     margin-top: 10px;
@@ -193,6 +194,7 @@ body {
     padding: 10px 20px;
     text-transform: uppercase;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #email-sign-up #email-submit:hover {
