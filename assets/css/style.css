@@ -184,13 +184,21 @@ h4 {
 
 @media only screen and (max-width: 1200px) {
 
-    #body-wrapper {
+    #body-sec {
+        max-width: 65%;
+        height: 1200px;
         margin: 0 auto;
     }
 
+    #body-wrapper {
+        width: 100%;
+    }
+
     #body-center {
-        float: left;
-        padding: 0px;
+        padding: 0 20px 0 20px;
+        width: 50%;
+        margin-left: 100px;
+        text-align: center;
     }
 
     #body-center h1 {
@@ -202,13 +210,22 @@ h4 {
     }
 
     #body-left {
-        float: right;
         padding: 0;
+        width: 50%;
     }
 
-    #body-right {
+    #body-left img {
+        padding: 0 40px 0 40px;
+        max-width: 110%;
+    }
+
+    /* #body-right {
         float: right;
         padding: 0;
+    } */
+
+    #body-right {
+        display: none;
     }
 }
 
