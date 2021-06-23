@@ -193,13 +193,15 @@ h4 {
         padding: 0px;
     }
 
+    #body-center h1 {
+        padding: 0 10px 10px 10px;
+    }
+
     #body-center p {
         padding: 0px;
     }
 
-
-
-    #body-left{
+    #body-left {
         float: right;
         padding: 0;
     }
@@ -208,10 +210,6 @@ h4 {
         float: right;
         padding: 0;
     }
-
-    /* #body_p2 {
-        display: none;
-    } */
 }
 
 /* ---------Benefit Bar --------- */
