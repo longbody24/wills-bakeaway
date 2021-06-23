@@ -44,6 +44,32 @@ h4 {
     background-color: green;
 }
 
+/* ---------Responsive Media Querys--------- */
+
+@media only screen and (max-width: 1200px) {
+
+    #body-wrapper {
+        max-width:95%;
+        margin: 0 auto;
+    }
+
+    #body-center {
+        float: left;
+        padding: 0;
+    }
+
+    #body-left {
+        float: right;
+    }
+
+    #body-right {
+        float: right;
+    }
+
+    #body_p2 {
+        display: none;
+    }
+}
 
 /* ---------Header Section--------- */
 
