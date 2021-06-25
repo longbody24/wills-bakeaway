@@ -209,17 +209,29 @@ h4 {
 }
 
 /* ---------Body Product Cards--------- */
+
+#row {
+    margin: 0 auto;
+}
  
 .col-md-4 {
-    max-width: 33%;
-    margin: auto;
+    max-width: 29%;
     text-align: center;
     display: inline-block;
+    padding: 10px 10px;
+    margin: 0 10px 0 10px;
+}
+
+.col-md-4 h3 {
+    padding: 5px 0;
 }
 
 .price {
     color: red;
+    padding: 5px 0;
 }
+
+
 
 
 /* ---------Responsive BODY Media Querys - TABLET --------- */
