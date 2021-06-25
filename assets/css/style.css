@@ -232,8 +232,24 @@ h4 {
     margin: 5px 0;
 }
 
+/* ---------Body About Us --------- */
 
+#about-us-main {
+    display: inline-block;
+    margin: 0 auto;
+}
 
+#copy {
+    float: left;
+    padding: 20px 20px;
+    width: 45%;
+}
+
+#video {
+    padding: 20px 20px;
+    float: right;
+    width: 45%;
+}
 
 
 /* ---------Responsive BODY Media Querys - TABLET --------- */
@@ -298,12 +314,12 @@ h4 {
 
 #benefit-left {
     padding: 0 20px;
-    width: 33%;
+    width: 50%;
 }
 
 #benefit-right {
     padding: 0 20px;
-    width: 33%;
+    width: 50%;
 }
 
 #benefit-center {
