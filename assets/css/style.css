@@ -211,7 +211,8 @@ h4 {
 /* ---------Body Product Cards--------- */
 
 #row {
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
  
 .col-md-4 {
@@ -222,14 +223,15 @@ h4 {
     margin: 0 10px 0 10px;
 }
 
-.col-md-4 h3 {
-    padding: 5px 0;
-}
-
 .price {
     color: red;
-    padding: 5px 0;
+    font-size: 1.1rem;
 }
+
+.col-md-4 .button {
+    margin: 5px 0;
+}
+
 
 
 
