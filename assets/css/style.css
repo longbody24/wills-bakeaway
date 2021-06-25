@@ -75,7 +75,14 @@ h4 {
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
-    padding: 50px 30px;
+    padding: 50px 30px 10px 30px;
+}
+
+.active {
+    border-bottom: 2px solid orange;
+    margin: 0 auto;
+    padding: 0 auto;
+    
 }
 
 #header-nav-right a {
