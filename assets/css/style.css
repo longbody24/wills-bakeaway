@@ -251,6 +251,45 @@ h4 {
     width: 45%;
 }
 
+/* ---------Body Product Details Page --------- */
+
+#product-wrapper {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#product-image {
+    padding: 20px 20px;
+    float: left;
+    width: 45%;
+}
+
+#product-details {
+    padding: 20px 20px;
+    float: left;
+    width: 45%;
+    text-align: center;
+    border: 1px solid #3a3a3a;
+    margin-top: 20px;
+}
+
+#product-details .button {
+    background-color: black;
+    margin-top: 10px;
+}
+
+#product-details ul {
+    list-style-position: inside;
+    margin-top: 10px;
+}
+
+#product-details p {
+    margin-top: 10px;
+}
+
+
+
 
 /* ---------Responsive BODY Media Querys - TABLET --------- */
 
