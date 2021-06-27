@@ -296,24 +296,39 @@ h4 {
 
 /* --------- Body Contact Us Form -------- */
 
+#contact-form {
+    display: flex;
+    justify-content: center;
+    
+}
 
-
+#contact-form label {
+   display: block;
+    
+}
 #contact-wrapper {
-    padding-top: 20px;
-    width: 75%;
+    width: 50%;
     background-color: #f2f2f2;
     border: solid 1px #3a3a3a;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 #contact-wrapper h1 {
     color: #742e2a;
+    text-align: center;
+}
+
+#contact-wrapper h2 {
+    padding: 10px 0 10px 0;
+    clear: both;
 }
 
 input {
     border: 1px solid #3a3a3a;
-    height: 20px;
+    height: 10px;
+    padding: 10px;
 }
 
 input[type=submit] {
@@ -356,10 +371,25 @@ input[type=reset]:hover {
     border: 1px solid black;
 }
 
-input[name=comment] {
-    height: 100px;
+textarea[name=comment] {
+    border: 1px solid #3a3a3a;
+    padding: 5px;
 }
 
+.phone {
+    margin: 20px;
+}
+
+#contact-wrapper h3 {
+    font-size: 1.5rem;
+    color: #742e2a;
+}
+
+#contact-wrapper, .fas fa-phone {
+    font-size: 1.1rem;
+    color: #3a3a3a;
+    margin-top: 10px;
+}
 
 /* ---------Responsive BODY Media Querys - TABLET --------- */
 
