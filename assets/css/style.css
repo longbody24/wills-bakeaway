@@ -294,8 +294,71 @@ h4 {
 }
 
 
+/* --------- Body Contact Us Form -------- */
 
 
+
+#contact-wrapper {
+    padding-top: 20px;
+    width: 75%;
+    background-color: #f2f2f2;
+    border: solid 1px #3a3a3a;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#contact-wrapper h1 {
+    color: #742e2a;
+}
+
+input {
+    border: 1px solid #3a3a3a;
+    height: 20px;
+}
+
+input[type=submit] {
+    background-color: orange;
+    border: 1px solid lightgray;
+    color: #f2f2f2;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    height: auto;
+}
+
+input[type=reset] {
+    background-color: black;
+    color: #f2f2f2;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    height: auto;
+}
+
+input[type=submit]:hover {
+    color: #fff;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+}
+
+input[type=reset]:hover {
+    color: #3a3a3a;
+}
+
+input[type=reset]:hover {
+    background-color: white;
+    border: 1px solid black;
+}
+
+input[name=comment] {
+    height: 100px;
+}
 
 
 /* ---------Responsive BODY Media Querys - TABLET --------- */
