@@ -26,7 +26,7 @@ h4 {
 }
 
 .button {
-    background-color: orange;
+    background-color: #340804;
     border: 1px solid lightgray;
     color: #f2f2f2;
     padding: 10px 20px;
@@ -486,7 +486,7 @@ textarea[name=comment] {
 
 /* ---------Footer Section - Social Links --------- */
 #social-links {
-    background-color: #742e2a;
+    background-color: #340804;
     height: 20%;
     padding: 10px 0;
     font-size: 24px;
