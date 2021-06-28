@@ -478,44 +478,10 @@ textarea[name=comment] {
     justify-content: space-between;
     width: 100%;
     text-align: center;
-}
-
-/* ---------Footer Section - Email --------- */
-
-#email-sign-up {
     background-color: #742e2a;
-    color: #fff;
-    padding: 10px;
-}
-
-#email-sign-up h3 {
-    margin-bottom: 10px;
-}
-
-/*#email-sign-up #email-submit {
-    background-color: orange;
-    border: 1px solid #3a3a3a;
-    color: #f2f2f2;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#email-sign-up #email-submit:hover {
-    color: #fff;
-}
-
-#email-sign-up #email-submit:hover {
-    background-color: green;
-}*/
-
-#email-sign-up #email-box {
-    background-color: #fff;
-    width: 15%;
-    border: 1px solid #3a3a3a;
-    padding: 10px 20px;
-    border-radius: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 
 /* ---------Footer Section - Social Links --------- */
@@ -532,6 +498,7 @@ textarea[name=comment] {
     padding: 0 20px 0 20px;
     text-decoration: none;
     color: whitesmoke;
+    margin-bottom: 20px;
 }
 
 #social-links h3 {
