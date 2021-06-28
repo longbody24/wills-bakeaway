@@ -160,26 +160,6 @@ h4 {
     margin-top: 15px;
 }
 
-/*#body-center button {
-    background-color: orange;
-    border: 1px solid #3a3a3a;
-    color: #f2f2f2;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    border-radius: 10px;
-    font-family: 'Lato', sans-serif;
-    cursor: pointer;
-}
-
-#body-center button:hover {
-    color: #fff;
-}
-
-#body-center button:hover {
-    background-color: green;
-}*/
-
-
 #body-right {
     float: right;
     max-width: 33%;
@@ -210,9 +190,14 @@ h4 {
 
 /* ---------Body Product Cards--------- */
 
+#product-links {
+    height: 1175px;
+}
+
 #row {
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
 }
  
 .col-md-4 {
@@ -230,6 +215,11 @@ h4 {
 
 .col-md-4 .button {
     margin: 5px 0;
+}
+
+.col-md-4 h3 {
+    font-size: 1.3rem;
+    padding-top: 10px;
 }
 
 /* ---------Body About Us --------- */
@@ -389,55 +379,6 @@ textarea[name=comment] {
     font-size: 1.1rem;
     color: #3a3a3a;
     margin-top: 10px;
-}
-
-/* ---------Responsive BODY Media Querys - TABLET --------- */
-
-@media only screen and (max-width: 1200px) {
-
-    #body-sec {
-        max-width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    #body-wrapper {
-        width: 100%;
-    }
-
-    #body-center {
-        padding: 0 20px 0 20px;
-        width: 50%;
-        margin-left: 100px;
-        text-align: center;
-    }
-
-    #body-center h1 {
-        padding: 0 10px 10px 10px;
-    }
-
-    #body-center p {
-        padding: 0px;
-    }
-
-    #body-left {
-        padding: 0;
-        width: 50%;
-    }
-
-    #body-left img {
-        padding: 0 40px 0 40px;
-        max-width: 110%;
-    }
-
-    /* #body-right {
-        float: right;
-        padding: 0;
-    } */
-
-    #body-right {
-        display: none;
-    }
 }
 
 /* ---------Footer Section--------- */
