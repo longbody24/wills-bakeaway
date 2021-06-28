@@ -440,7 +440,8 @@ textarea[name=comment] {
     }
 }
 
-/* ---------Benefit Bar --------- */
+/* ---------Footer Section--------- */
+
 #benefit-bar-container {
     display: flex;
     text-align: center;
@@ -466,8 +467,6 @@ textarea[name=comment] {
     border-left: 1px solid;
     border-right: 1px solid;
 }
-
-/* ---------Footer Section--------- */
 
 #footer-wrapper {
     /* issue with footer not displaying in the footer solved using 
