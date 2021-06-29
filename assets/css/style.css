@@ -82,7 +82,7 @@ h4 {
     border-bottom: 2px solid orange;
     margin: 0 auto;
     padding: 0 auto;
-    
+
 }
 
 #header-nav-right a {
@@ -199,14 +199,14 @@ h4 {
     justify-content: center;
     padding-bottom: 20px;
 }
- 
+
 .col-md-4 {
     max-width: 20%;
     text-align: center;
     display: inline-block;
     padding: 10px 10px;
     margin: 0 30px 0 30px;
-    
+
 }
 
 .price {
@@ -226,16 +226,18 @@ h4 {
 /* ---------Body About Us --------- */
 
 #about-us-main {
-    display: inline-block;
-    margin: 0 auto;
-    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 50px 0 50px;
     text-align: center;
 }
 
 #copy {
     float: left;
-    width:30%;
-    margin-left: 240px;    
+    width: 45%;
+    padding: 10px 10px;
+
 }
 
 #copy p {
@@ -244,9 +246,11 @@ h4 {
 
 #video {
     float: right;
-    width: 40%;
-    margin-right: 250px;
+    max-width: 50% !important;
+    height: auto !important;
     margin-top: 20px;
+    padding: 10px 10px;
+
 }
 
 /* ---------Body Product Details Page --------- */
@@ -297,13 +301,14 @@ h4 {
 #contact-form {
     display: flex;
     justify-content: center;
-    
+
 }
 
 #contact-form label {
-   display: block;
-    
+    display: block;
+
 }
+
 #contact-wrapper {
     width: 50%;
     background-color: #f2f2f2;
@@ -383,7 +388,8 @@ textarea[name=comment] {
     color: #742e2a;
 }
 
-#contact-wrapper, .fas fa-phone {
+#contact-wrapper,
+.fas fa-phone {
     font-size: 1.1rem;
     color: #3a3a3a;
     margin-top: 10px;
