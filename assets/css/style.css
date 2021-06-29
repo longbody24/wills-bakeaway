@@ -225,11 +225,14 @@ h4 {
 
 /* ---------Body About Us --------- */
 
-#about-us-main {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+#about-us {
     margin: 0 50px 0 50px;
+    display: flex;
+    justify-content: center; 
+}
+
+#about-us-main {
+    width: 100%;
     text-align: center;
 }
 
@@ -237,7 +240,10 @@ h4 {
     float: left;
     width: 45%;
     padding: 10px 10px;
+}
 
+#copy h1 {
+    font-weight: bold;
 }
 
 #copy p {
@@ -248,7 +254,7 @@ h4 {
     float: right;
     max-width: 50% !important;
     height: auto !important;
-    margin-top: 20px;
+    margin-top: 59px;
     padding: 10px 10px;
 
 }
