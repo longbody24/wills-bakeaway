@@ -171,9 +171,6 @@ h4 {
 
 /* ---------Body Product Cards--------- */
 
-#product-links {
-    height: 1175px;
-}
 
 #row {
     display: flex;
@@ -225,6 +222,7 @@ h4 {
 
 #copy h1 {
     font-weight: bold;
+    color: #340804;
 }
 
 #copy p {
