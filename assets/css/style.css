@@ -241,24 +241,28 @@ h4 {
 /* ---------Body Product Details Page --------- */
 
 #product-wrapper {
+    display: flex;
     width: 100%;
-    display: inline-block;
-    margin: 0 auto;
 }
 
-#product-image {
-    padding: 20px 20px;
-    float: left;
-    width: 45%;
-}
+.col {
+    flex: 1;
+    padding: 16px;
+  }
 
 #product-details {
-    padding: 20px 20px;
+    padding: 0 20px;
     float: left;
     width: 45%;
     text-align: center;
     border: 1px solid #3a3a3a;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+}
+
+#product-image {
+    padding: 0px 20px;
+    float: left;
+    width: 45%;
 }
 
 #product-details .button {
