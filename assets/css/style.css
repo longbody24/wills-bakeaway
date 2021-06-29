@@ -11,6 +11,12 @@ body {
     height: auto;
     color: #3a3a3a;
     font-family: 'Nunito', sans-serif;
+    position: relative;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
 }
 
 h2 {
@@ -104,31 +110,6 @@ h4 {
     background-color: #fff;
     border: 0;
 }
-
-/* ---------Responsive Header Media Query - Mobile --------- */
-
-@media screen and (max-width: 950px) {
-
-    #header-nav-left {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    #header-nav-left a {
-        padding: 10px 10px;
-    }
-
-    #benefit-bar-container {
-        display: inline-block;
-        border: none;
-    }
-
-}
-
-
 
 /* ---------Body Section--------- */
 
@@ -307,21 +288,17 @@ h4 {
 #contact-form {
     display: flex;
     justify-content: center;
-
-}
-
-#contact-form label {
-    display: block;
-
 }
 
 #contact-wrapper {
-    width: 50%;
+    width: 40%;
     background-color: #f2f2f2;
     border: solid 1px #3a3a3a;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     text-align: center;
+    height: 535px;
+    margin-bottom: 20px;
 }
 
 #contact-wrapper h1 {
@@ -332,12 +309,19 @@ h4 {
 #contact-wrapper h2 {
     padding: 10px 0 10px 0;
     clear: both;
+    text-align: left;
+    margin-left: 51px;
+    font-weight: bolder;
 }
 
 input {
     border: 1px solid #3a3a3a;
     height: 10px;
     padding: 10px;
+}
+
+input textarea {
+    height: 30px;
 }
 
 input[type=submit] {
@@ -386,7 +370,7 @@ textarea[name=comment] {
 }
 
 .phone {
-    margin: 20px;
+    margin: 10px;
 }
 
 #contact-wrapper h3 {
@@ -438,7 +422,7 @@ textarea[name=comment] {
     width: 100%;
     text-align: center;
     background-color: #742e2a;
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     bottom: 0;
 }
