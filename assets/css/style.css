@@ -43,6 +43,7 @@ h4 {
     border-radius: 10px;
     font-family: 'Lato', sans-serif;
     cursor: pointer;
+    width: 140px;
 }
 
 .button:hover {
@@ -276,13 +277,25 @@ header {
     background-color: black;
 }
 
+#product-details .button1 {
+    background-color: fff;
+    border: 1px solid #340804;
+    color: #340804;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
 #product-details ul {
     list-style-position: inside;
     padding-top: 10px;
 }
 
 #product-details h1 {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 #product-details p {
