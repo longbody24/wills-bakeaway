@@ -353,44 +353,52 @@ input textarea {
 }
 
 input[type=submit] {
-    background-color: orange;
-    border: 1px solid lightgray;
-    color: #f2f2f2;
+    color: #340804;
+    background-color: white;
+    border: 1px solid #340804;
     padding: 10px 20px;
     text-transform: uppercase;
-    border-radius: 10px;
+    border-radius: 5px;
     font-family: 'Lato', sans-serif;
     cursor: pointer;
-    height: auto;
+    width: 140px;
+    height: 40px;
+}
+
+.reset {
+    border: none;
+    height: 10px;
+    padding: 10px 20px;
+    height: 40px;
 }
 
 input[type=reset] {
-    background-color: black;
-    color: #f2f2f2;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    border-radius: 10px;
+    color: #340804;
+    /* background-color: #340804; */
+    /* border: 1px solid #340804; */
+    /* padding: 10px 20px; */
+    /* text-transform: uppercase; */
+    /* border-radius: 5px; */
     font-family: 'Lato', sans-serif;
     cursor: pointer;
-    height: auto;
+    /* width: 140px;
+    height: 40px; */
 }
 
 input[type=submit]:hover {
-    color: #fff;
+    background-color: #340804;
+    border: 1px solid lightgray;
+    color: #f2f2f2;
 }
 
-input[type=submit]:hover {
-    background-color: green;
-}
-
-input[type=reset]:hover {
+/* input[type=reset]:hover {
     color: #3a3a3a;
 }
 
 input[type=reset]:hover {
     background-color: white;
     border: 1px solid black;
-}
+} */
 
 textarea[name=comment] {
     border: 1px solid #3a3a3a;
