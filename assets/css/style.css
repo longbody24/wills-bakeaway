@@ -274,16 +274,19 @@ header {
 
 #product-details .button {
     background-color: black;
-    margin-top: 10px;
 }
 
 #product-details ul {
     list-style-position: inside;
-    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#product-details h1 {
+    padding-top: 10px;
 }
 
 #product-details p {
-    margin-top: 10px;
+    padding-top: 10px;
 }
 
 #product-details a {
