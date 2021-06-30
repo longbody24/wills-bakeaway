@@ -262,11 +262,12 @@ header {
     width: 40%;
     text-align: center;
     border: 1px solid #3a3a3a;
-    /* margin-top: 20px; */
+    background-color: whitesmoke;
 }
 
 #product-details h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    text-decoration: underline;
 }
 
 #product-image {
@@ -295,7 +296,7 @@ header {
 
 #product-details h1 {
     padding-top: 10px;
-    font-size: 1.2rem;
+    font-size: 2.0rem;
 }
 
 #product-details p {
