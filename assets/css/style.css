@@ -6,9 +6,9 @@
     border: none;
 }
 
+
 body {
     width: 100%;
-    height: auto;
     color: #3a3a3a;
     font-family: 'Nunito', sans-serif;
     position: relative;
@@ -17,6 +17,8 @@ body {
 footer {
     position: absolute;
     width: 100%;
+    background-color: #340804;
+    height: 193px;
 }
 
 h2 {
@@ -52,11 +54,17 @@ h4 {
 
 /* ---------Header Section--------- */
 
-#header-wrapper {
-    overflow: hidden;
+header {
+    height: 120px;
     background-color: #fff;
+    overflow: hidden;
+}
+
+#header-wrapper {
+    
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
+    height: 120px;
 }
 
 #header-wrapper a:hover {
@@ -86,9 +94,6 @@ h4 {
 
 .active {
     border-bottom: 2px solid orange;
-    margin: 0 auto;
-    padding: 0 auto;
-
 }
 
 #header-nav-right a {
@@ -151,7 +156,7 @@ h4 {
 
 #body-right img {
     max-width: 90%;
-    max-height: auto;
+    height: auto;
     object-fit: cover;
 }
 
@@ -165,7 +170,7 @@ h4 {
 
 #body-left img {
     max-width: 90%;
-    max-height: auto;
+    height: auto;
     object-fit: cover;
 }
 
@@ -423,15 +428,12 @@ textarea[name=comment] {
     justify-content: space-between;
     width: 100%;
     text-align: center;
-    background-color: #742e2a;
-    /* position: fixed; */
     left: 0;
     bottom: 0;
 }
 
 /* ---------Footer Section - Social Links --------- */
 #social-links {
-    background-color: #340804;
     height: 20%;
     padding: 10px 0;
     font-size: 24px;
