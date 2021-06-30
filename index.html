@@ -39,8 +39,34 @@
         </nav>
     </header>
     <!------ Main Body ------->
-    <section id="body_sec">
-        <div id="body-wrapper">
+    <section>
+        <div class="flexbox-grid">
+            <div class="col" id="body-left">
+                <img src="assets/images/hpslideshow/slide-1.jpg" alt="slide1">
+            </div>
+            <div class="col" id="body-center">
+                <h1>Will's Bakeaway</h1>
+                <p id="body_p1">
+                    Welcome to Will's bakeaway, thanks for dropping by. If you're looking for a sweet treat delivered
+                    straigh to your door then you've come to the right place. Or if you are feeling adventurous or
+                    looking for something to do with your kids why not try one of our bake at home kits
+                </p><br>
+                <p id="body_p2">
+                    Simply browse using the shop now button below. Our treats are made fresh to order and will be with
+                    you the next working day if you order before 12pm. Our bake at home kits come with all the
+                    ingredients pre measured and a simple step by step guide to baking your very own sweet treats to
+                    impress your friends and family. Happy baking!
+                </p>
+                <p>
+                    <button class="button" onclick="document.location='recipes.html'" title="Shop Our Recipes">SHOP
+                        NOW</button>
+                </p>
+            </div>
+            <div class="col" id="body-right">
+                <img src="assets/images/hpslideshow/slide-6.jpg" alt="slide1">
+            </div>
+        </div>
+        <!-- <div id="body-wrapper">
             <div id="body-left">
                 <img src="assets/images/hpslideshow/slide-1.jpg" alt="slide1">
             </div>
@@ -62,27 +88,26 @@
                     <button class="button" onclick="document.location='recipes.html'" title="Shop Our Recipes">SHOP
                         NOW</button>
                 </p>
-
             </div>
 
             <div id="body-right">
                 <img src="assets/images/hpslideshow/slide-6.jpg" alt="slide1">
             </div>
 
-        </div>
+        </div> -->
     </section>
 
     <!------ Footer Section ------->
     <footer>
         <div id="footer-wrapper">
             <div id="benefit-bar-container">
-                <div id="benefit-left">
+                <div id="benefit-left" class="col">
                     <h4><i class="fas fa-child"></i><br>Great way to introduce<br>kids to baking.</h4>
                 </div>
-                <div id="benefit-center">
+                <div id="benefit-center" class="col">
                     <h4><i class="fas fa-shipping-fast"></i><br>UK Delivery<br>£3.95</h4>
                 </div>
-                <div id="benefit-right">
+                <div id="benefit-right" class="col">
                     <h4><i class="fas fa-gift"></i><br>The perfect gift<br>for friends & family</h4>
                 </div>
             </div>

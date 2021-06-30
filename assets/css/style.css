@@ -12,7 +12,6 @@ body {
     color: #3a3a3a;
     font-family: 'Nunito', sans-serif;
     position: relative;
-    min-height: calc(100vh - 313px);
 }
 
 footer {
@@ -54,7 +53,7 @@ h4 {
 
 input:focus::placeholder {
     color: transparent;
-  }
+}
 
 /* ---------Header Section--------- */
 
@@ -65,7 +64,7 @@ header {
 }
 
 #header-wrapper {
-    
+
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
     height: 120px;
@@ -120,9 +119,48 @@ header {
     border: 0;
 }
 
+/* ----- Body Responsive ------- */
+
+@media only screen and (max-device-width: 1200px) {
+    .flexbox-grid {
+        display: block;
+    }
+}
+
 /* ---------Body Section--------- */
 
-#body-wrapper {
+.flexbox-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    flex: 1;
+    width: 25%;
+}
+
+.col img {
+    width: 100%;
+}
+
+#body-center p {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#body-center h1 {
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5em;
+}
+
+#body-center .button {
+    margin-top: 15px;
+}
+
+
+/* #body-wrapper {
     font-family: 'Lato', sans-serif;
     display: flex;
     height: auto;
@@ -176,7 +214,7 @@ header {
     max-width: 90%;
     height: auto;
     object-fit: cover;
-}
+} */
 
 /* ---------Body Product Cards--------- */
 
@@ -215,7 +253,7 @@ header {
 #about-us {
     margin: 0 50px 0 50px;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
 #about-us-main {
@@ -258,7 +296,7 @@ header {
 .col {
     flex: 1;
     padding: 16px;
-  }
+}
 
 #product-details {
     padding: 0 20px;
@@ -427,6 +465,16 @@ textarea[name=comment] {
 
 /* ---------Footer Section--------- */
 
+#footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+}
+
 #benefit-bar-container {
     display: flex;
     text-align: center;
@@ -454,8 +502,6 @@ textarea[name=comment] {
 }
 
 #footer-wrapper {
-    /* issue with footer not displaying in the footer solved using 
-     https://stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
