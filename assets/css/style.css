@@ -52,10 +52,6 @@ h4 {
     color: #f2f2f2;
 }
 
-/* .button:hover {
-    background-color: white;
-} */
-
 /* ---------Header Section--------- */
 
 header {
@@ -269,27 +265,27 @@ header {
     /* margin-top: 20px; */
 }
 
+#product-details h3 {
+    font-size: 1.3rem;
+}
+
 #product-image {
     padding: 0px 20px;
     float: left;
     width: 40%;
 }
 
-#product-details .button {
+.button1 {
+    color: white;
     background-color: black;
-}
-
-#product-details .button1 {
-    background-color: fff;
-    border: 1px solid #340804;
-    color: #340804;
     padding: 10px 20px;
     text-transform: uppercase;
-    border-radius: 10px;
+    border-radius: 5px;
     font-family: 'Lato', sans-serif;
-    cursor: pointer;
-    margin-top: 10px;
+    width: 140px;
+    margin-bottom: 10px;
 }
+
 
 #product-details ul {
     list-style-position: inside;
@@ -302,6 +298,7 @@ header {
 
 #product-details p {
     padding-top: 10px;
+    margin-bottom: 10px;
 }
 
 #product-details a {
