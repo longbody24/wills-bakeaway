@@ -266,7 +266,7 @@ header {
 }
 
 #product-details h3 {
-    font-size: 1.875rem;
+    font-size: 1.2rem;
 }
 
 #product-image {
@@ -283,25 +283,25 @@ header {
     border-radius: 5px;
     font-family: 'Lato', sans-serif;
     width: 140px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 
 #product-details ul {
     list-style-position: inside;
-    padding-top: 10px;
-    font-size: 1.2rem;
+    padding-top: 5px;
+    font-size: 1.1rem;
 }
 
 #product-details h1 {
-    padding-top: 20px;
-    font-size: 2rem;
+    padding-top: 10px;
+    font-size: 1.2rem;
 }
 
 #product-details p {
     /* padding-top: 10px; */
     margin-bottom: 10px;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
 }
 
 #product-details a {
