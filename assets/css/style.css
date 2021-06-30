@@ -266,7 +266,7 @@ header {
 }
 
 #product-details h3 {
-    font-size: 1.3rem;
+    font-size: 1.875rem;
 }
 
 #product-image {
@@ -290,15 +290,18 @@ header {
 #product-details ul {
     list-style-position: inside;
     padding-top: 10px;
+    font-size: 1.2rem;
 }
 
 #product-details h1 {
     padding-top: 20px;
+    font-size: 2rem;
 }
 
 #product-details p {
-    padding-top: 10px;
+    /* padding-top: 10px; */
     margin-bottom: 10px;
+    font-size: 1.1rem;
 }
 
 #product-details a {
