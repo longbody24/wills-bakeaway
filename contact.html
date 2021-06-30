@@ -47,19 +47,19 @@
                 Feel free to get in touch with any queries or questions, you can email us or call us on the details
                 below.
             </p>
-            <form action="mailto:help@example.com" method="post" enctype="text/plain">
+            <form action="mailto:jmlcotton@gmail.com?subject=Will's Bakeaway Query" method="post" enctype="text/plain">
                 <label for="name">
                     <h2>Name:</h2>
                 </label>
-                <input type="text" name="name" size="50">
+                <input required type="text" name="name" size="50" placeholder="Your name">
                 <label for="mail">
                     <h2>Email:</h2>
                 </label>
-                <input type="text" name="mail" size="50">
+                <input required type="email" name="mail" size="50" placeholder="example@example.com">
                 <label for="comment">
                     <h2>Message:</h2>
                 </label>
-                <textarea class="longInput" cols="44" rows="3" name="comment"></textarea>
+                <textarea class="longInput" cols="44" rows="3" name="comment" placeholder="Enter your message..." required></textarea>
                 <br><br>
                 <input type="submit" value="Send">
                 <input type="reset" value="Reset" class="reset">
