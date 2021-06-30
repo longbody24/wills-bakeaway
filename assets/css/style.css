@@ -12,6 +12,7 @@ body {
     color: #3a3a3a;
     font-family: 'Nunito', sans-serif;
     position: relative;
+    min-height: calc(100vh - 313px);
 }
 
 footer {
@@ -248,6 +249,7 @@ header {
 #product-wrapper {
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 .col {
