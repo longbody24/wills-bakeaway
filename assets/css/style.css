@@ -261,7 +261,7 @@ header {
 #product-details {
     padding: 0 20px;
     float: left;
-    width: 45%;
+    width: 40%;
     text-align: center;
     border: 1px solid #3a3a3a;
     /* margin-top: 20px; */
@@ -270,7 +270,7 @@ header {
 #product-image {
     padding: 0px 20px;
     float: left;
-    width: 45%;
+    width: 40%;
 }
 
 #product-details .button {
