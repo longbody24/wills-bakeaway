@@ -111,7 +111,6 @@ hr {
 
 .flexbox-grid .col {
     margin: 0 10px;
-    /* flex-grow: 1; */
 }
 
 .col img {
@@ -385,49 +384,46 @@ textarea[name=comment] {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
-    text-align: center;
-    left: 0;
-    bottom: 0;
+    
 }
 
 #benefit-bar-container {
-    display: flex;
     text-align: center;
+    display: inline-flex;
     color: #3a3a3a;
     padding: 10px 30px 10px 30px;
     max-width: 100%;
     background-color: #fff;
 }
 
+#benefit-bar-container .col {
+    flex: 1;
+    display: inline-flex;
+    justify-content: center;
+    color: #3a3a3a;
+    padding: 10px 30px 10px 30px;
+    max-width: 100%;
+    background-color: #fff;
+}
+
+#social-links {
+    flex: 1;
+}
+
 #benefit-left {
     padding: 0 20px;
-    width: 50%;
 }
 
 #benefit-right {
     padding: 0 20px;
-    width: 50%;
 }
 
 #benefit-center {
     padding: 0 20px;
-    width: 33%;
     border-left: 1px solid;
     border-right: 1px solid;
 }
 
-#footer-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    text-align: center;
-    left: 0;
-    bottom: 0;
-}
-
-/* ---------Footer Section - Social Links --------- */
 #social-links {
     height: 20%;
     padding: 10px 0;
@@ -494,4 +490,17 @@ textarea[name=comment] {
     #header-nav a {
         padding: 0 10px 10px 10px;
     }
+    
+    #benefit-bar-container #benefit-left {
+        display: none;
+    }
+
+    #benefit-center {
+        border-left: 0px solid;
+        flex: 1;
+    }
+    #benefit-right {
+        flex: 1;
+    }
+
 }
