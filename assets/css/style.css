@@ -111,7 +111,8 @@ hr {
 
 .flexbox-grid .col {
     margin: 0 10px;
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    width: 32%;
 }
 
 .col img {
