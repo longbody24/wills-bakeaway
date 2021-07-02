@@ -481,4 +481,7 @@ textarea[name=comment] {
         flex-grow: 1;
         background-color: orange;
     }
+    #header-nav a {
+        padding: 0 30px 10px 30px;
+    }
 }
