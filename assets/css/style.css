@@ -55,6 +55,10 @@ input:focus::placeholder {
     color: transparent;
 }
 
+hr {
+    color: #340804;
+}
+
 /* ---------Header Section--------- */
 
 #header-wrapper {
