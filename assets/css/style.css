@@ -57,37 +57,21 @@ input:focus::placeholder {
 
 /* ---------Header Section--------- */
 
-.header-wrapper {
+#header-wrapper {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
 }
 
-.header-wrapper .col {
-    margin: 0 10px;
-    flex-grow: 1;
+#header-logo {
+    flex: 1;
+
 }
 
-header {
-    height: 120px;
-    background-color: #fff;
-    /* overflow: hidden; */
+#header-nav {
+    flex: 5;
 }
 
-#header-wrapper a:hover {
-    color: green;
-}
-
-#header-logo img {
-    float: left;
-    height: 120px;
-    width: auto;
-    padding-left: 10px;
-}
-
-#header-nav-left a {
-    float: left;
+#header-nav a {
+    display: inline-block;
     color: #3a3a3a;
     text-align: center;
     text-decoration: none;
@@ -96,29 +80,20 @@ header {
     padding: 50px 30px 10px 30px;
 }
 
+#header-nav a:hover {
+    color: green;
+}
+
 .active {
     border-bottom: 2px solid orange;
+} 
+
+#header-logo img {
+    height: 120px;
+    width: auto;
+    padding-left: 10px;
 }
 
-#header-nav-right a {
-    display: flex;
-    float: right;
-    color: #3a3a3a;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
-    text-transform: capitalize;
-    padding: 50px 20px;
-}
-
-#header-nav-right button {
-    color: #3a3a3a;
-    float: right;
-    padding: 50px 20px;
-    font-size: 18px;
-    background-color: #fff;
-    border: 0;
-}
 
 
 
@@ -156,28 +131,7 @@ header {
 }
 
 
-/* ----- Body Responsive ------- */
 
-@media screen and (max-width: 1200px) {
-    .flexbox-grid .{
-        flex-direction: column;
-    }
-    .flexbox-grid .col {
-        flex-grow: 1;
-        background-color: blue;
-    }
-}
-
-
-@media screen and (max-width: 600px) {
-    .flexbox-grid {
-        flex-direction: column;
-    }
-    .flexbox-grid .col {
-        flex-grow: 1;
-        background-color: red;
-    }
-}
 /* ---------Body Product Cards--------- */
 
 
@@ -255,7 +209,7 @@ header {
     justify-content: center;
 }
 
-.col {
+#product-wrapper .col {
     flex: 1;
     padding: 16px;
 }
@@ -494,4 +448,37 @@ textarea[name=comment] {
     text-decoration: none;
     color: whitesmoke;
     padding: 0 0 10px 0;
+}
+
+
+/* ----- Body Responsive max 1200px------- */
+
+@media screen and (max-width: 1200px) {
+    .flexbox-grid {
+        flex-direction: column;
+    }
+    .flexbox-grid .col {
+        flex-grow: 1;
+        background-color: blue;
+    } 
+}
+
+/* ----- Body Responsive max 1200px------- */
+
+@media screen and (max-width: 600px) {
+    .flexbox-grid {
+        flex-direction: column;
+    }
+    .flexbox-grid .col {
+        flex-grow: 1;
+        background-color: red;
+    }
+    #header-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    #header-wrapper .col {
+        flex-grow: 1;
+        background-color: orange;
+    }
 }
