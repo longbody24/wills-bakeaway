@@ -86,7 +86,7 @@ input:focus::placeholder {
 
 .active {
     border-bottom: 2px solid orange;
-} 
+}
 
 #header-logo img {
     height: 120px;
@@ -457,10 +457,11 @@ textarea[name=comment] {
     .flexbox-grid {
         flex-direction: column;
     }
+
     .flexbox-grid .col {
         flex-grow: 1;
-        background-color: blue;
-    } 
+        /* background-color: blue; */
+    }
 }
 
 /* ----- Body Responsive max 1200px------- */
@@ -469,19 +470,28 @@ textarea[name=comment] {
     .flexbox-grid {
         flex-direction: column;
     }
+
     .flexbox-grid .col {
         flex-grow: 1;
-        background-color: red;
+        /* background-color: red; */
     }
+
+    #body-right img {
+        display: none;
+    }
+
+
     #header-wrapper {
         flex-direction: column;
         align-items: center;
     }
+
     #header-wrapper .col {
         flex-grow: 1;
-        background-color: orange;
+        /* background-color: orange; */
     }
+
     #header-nav a {
-        padding: 0 30px 10px 30px;
+        padding: 0 10px 10px 10px;
     }
 }
