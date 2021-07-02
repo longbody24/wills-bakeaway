@@ -57,25 +57,26 @@ input:focus::placeholder {
 
 /* ---------Header Section--------- */
 
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header-wrapper .col {
+    margin: 0 10px;
+    flex-grow: 1;
+}
+
 header {
     height: 120px;
     background-color: #fff;
-    overflow: hidden;
-}
-
-#header-wrapper {
-
-    color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
-    height: 120px;
+    /* overflow: hidden; */
 }
 
 #header-wrapper a:hover {
     color: green;
-}
-
-#header-logo {
-    float: left;
 }
 
 #header-logo img {
@@ -158,19 +159,21 @@ header {
 /* ----- Body Responsive ------- */
 
 @media screen and (max-width: 1200px) {
-    .flexbox-grid {
+    .flexbox-grid .{
         flex-direction: column;
     }
-    .col {
+    .flexbox-grid .col {
+        flex-grow: 1;
         background-color: blue;
     }
 }
+
 
 @media screen and (max-width: 600px) {
     .flexbox-grid {
         flex-direction: column;
     }
-    .col {
+    .flexbox-grid .col {
         flex-grow: 1;
         background-color: red;
     }
