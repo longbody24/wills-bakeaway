@@ -132,7 +132,6 @@ header {
 .flexbox-grid .col {
     margin: 0 10px;
     flex-grow: 1;
-    background-color: blue;
 }
 
 .col img {
@@ -163,7 +162,17 @@ header {
         flex-direction: column;
     }
     .col {
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .flexbox-grid {
+        flex-direction: column;
+    }
+    .col {
         flex-grow: 1;
+        background-color: red;
     }
 }
 /* ---------Body Product Cards--------- */
