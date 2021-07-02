@@ -71,7 +71,7 @@ hr {
 }
 
 #header-nav {
-    flex: 5;
+    flex: 7;
 }
 
 #header-nav a {
@@ -112,11 +112,22 @@ hr {
 .flexbox-grid .col {
     margin: 0 10px;
     /* flex-grow: 1; */
-    width: 32%;
 }
 
 .col img {
     width: 100%;
+}
+
+#body-left {
+    flex: 1;
+}
+
+#body-right {
+    flex: 1;
+}
+
+#body-center{
+    flex: 1;
 }
 
 #body-center p {
