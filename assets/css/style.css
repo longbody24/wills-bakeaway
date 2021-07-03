@@ -187,11 +187,11 @@ hr {
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
-    margin: 0 30px 10px 30px;
+    margin: 0 50px 10px 50px;
 }
 
 #copy {
-    flex: 2;
+    flex: 1;
     padding: 10px 10px;
 }
 
@@ -207,15 +207,10 @@ hr {
 #video {
     flex: 1;
     padding: 10px 10px;
-    margin-top: 59px;
 }
 
-/* #video {
-    float: right;
-    max-width: 50% !important;
-    height: auto !important;
-      
-} */
+
+
 
 /* ---------Body Product Details Page --------- */
 
@@ -460,6 +455,19 @@ textarea[name=comment] {
         flex: 1;
         /* background-color: blue; */
     }
+
+    #about-us-main {
+        flex-direction: column;
+        margin: 0 10px;
+    }
+
+    #about-us-main .col {
+        flex: 1;
+    }
+
+    #video {
+        margin: 0 10px;
+    }
 }
 
 /* ----- Body Responsive max 600px - Mobile------- */
@@ -471,13 +479,11 @@ textarea[name=comment] {
 
     .flexbox-grid .col {
         flex-grow: 1;
-        /* background-color: red; */
     }
 
     #body-right img {
         display: none;
     }
-
 
     #header-wrapper {
         flex-direction: column;
@@ -486,7 +492,6 @@ textarea[name=comment] {
 
     #header-wrapper .col {
         flex-grow: 1;
-        /* background-color: orange; */
     }
 
     #header-nav a {
@@ -515,12 +520,10 @@ textarea[name=comment] {
     #video {
         flex: 1;
         margin-top: 20px;
-        margin: 0;
-
     }
 
-    iframe {
-        flex-shrink: 5;
+    .bake-video {
+        height: auto;
+        width: 400px;
     }
-
 }
