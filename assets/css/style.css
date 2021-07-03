@@ -19,13 +19,6 @@ footer {
     background-color: #340804;
 }
 
-/* footer {
-    position: absolute;
-    width: 100%;
-    background-color: #340804;
-    height: 193px;
-} */
-
 h2 {
     font-size: 1.1rem;
 }
@@ -153,23 +146,22 @@ hr {
 
 
 
-/* ---------Body Product Cards--------- */
+/* ---------Body Recipe Cards--------- */
 
 
 #row {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     padding-bottom: 20px;
-    flex-grow: 1;
+    /* justify-content: center; */
 }
 
 .col-md-4 {
-    max-width: 20%;
     text-align: center;
     display: inline-block;
     padding: 10px 10px;
     margin: 0 30px 0 30px;
-
+    flex: 1 0 25%;
 }
 
 .price {
@@ -541,4 +533,10 @@ textarea[name=comment] {
         height: 100%;
         width: auto;
     }
+
+    #row {
+        flex-wrap: wrap;
+    }
+
+
 }
