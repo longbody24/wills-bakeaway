@@ -192,7 +192,7 @@ hr {
 
 #copy {
     flex: 1;
-    padding: 20px 20px;
+    padding: 20px 50px;
 }
 
 #copy h1 {
@@ -207,6 +207,7 @@ hr {
 #video {
     flex: 1;
     margin-top: 20px;
+    padding: 0 50px;
 }
 
 .iframe-container {
@@ -473,6 +474,11 @@ textarea[name=comment] {
         flex-direction: column;
         margin: 0 10px;
     }
+
+    .bake-video {
+        height: 100%;
+        width: auto;
+    }
 }
 
 /* ----- Body Responsive max 600px - Mobile------- */
@@ -518,5 +524,10 @@ textarea[name=comment] {
 
     #about-us-main {
         flex-direction: column;
+    }
+
+    .bake-video {
+        height: 100%;
+        width: auto;
     }
 }
