@@ -15,11 +15,16 @@ body {
 }
 
 footer {
+    width: 100%;
+    background-color: #340804;
+}
+
+/* footer {
     position: absolute;
     width: 100%;
     background-color: #340804;
     height: 193px;
-}
+} */
 
 h2 {
     font-size: 1.1rem;
@@ -107,6 +112,7 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-grow: 1;
 }
 
 .flexbox-grid .col {
@@ -154,6 +160,7 @@ hr {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
+    flex-grow: 1;
 }
 
 .col-md-4 {
@@ -188,6 +195,8 @@ hr {
     justify-content: space-between;
     text-align: center;
     margin: 0 50px 10px 50px;
+    flex-grow: 1;
+
 }
 
 #copy {
@@ -206,7 +215,7 @@ hr {
 
 #video {
     flex: 1;
-    margin-top: 20px;
+    margin-top: 59px;
     padding: 0 50px;
 }
 
@@ -232,6 +241,7 @@ hr {
     display: flex;
     width: 100%;
     justify-content: center;
+    flex-grow: 1;
 }
 
 #product-wrapper .col {
@@ -299,6 +309,7 @@ hr {
 #contact-form {
     display: flex;
     justify-content: center;
+    flex-grow: 1;
 }
 
 #contact-wrapper {
