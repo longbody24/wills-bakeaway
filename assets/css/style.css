@@ -207,6 +207,7 @@ hr {
 #video {
     flex: 1;
     padding: 10px 10px;
+    margin-top: 45px;
 }
 
 
@@ -520,10 +521,5 @@ textarea[name=comment] {
     #video {
         flex: 1;
         margin-top: 20px;
-    }
-
-    .bake-video {
-        height: auto;
-        width: 400px;
     }
 }
