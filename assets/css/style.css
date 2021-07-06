@@ -301,14 +301,19 @@ hr {
 #contact-us {
     display: flex;
     flex-direction: column;
-    margin: 0 10px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 
-#contact-us, h1, p {
+#contact-us,
+h1,
+p {
     text-align: center;
 }
 
-#contact-us, h2 {
+#contact-us,
+h2 {
     margin: 10px 10px;
 }
 
@@ -316,23 +321,27 @@ hr {
     border: 1px solid #3a3a3a;
     border-radius: 10px;
     flex: 1;
-    min-width: 300px;
-    margin: 20px 200px;
+    width: 60% ;
     background-color: #f2f2f2;
+    margin: 20px 300px;
 }
 
-#contact-form input, textarea {
+#contact-form input,
+textarea {
     border: 1px solid #3a3a3a;
-    height: 200px;
-    width: 288px;
+    height: 100px;
+    min-width: 250px;
     padding: 5px;
 
 }
 
 #contact-form input {
     height: 30px;
-    width: 288px;
+    min-width: 250px;
     padding: 5px;
+    margin: 0px 10px 0 10px;
+    align-content: center;
+    margin: 10px 0;
 
 }
 
@@ -354,6 +363,7 @@ input[type=submit]:hover {
     border: 1px solid lightgray;
     color: #f2f2f2;
 }
+
 /* ---------Footer Section--------- */
 
 #footer-wrapper {
@@ -445,6 +455,10 @@ input[type=submit]:hover {
         height: 100%;
         width: auto;
     }
+    #contact-form {
+        width: 70%;
+        margin: 20px 50px;
+    }
 }
 
 /* ----- Body Responsive max 600px - Mobile------- */
@@ -500,6 +514,8 @@ input[type=submit]:hover {
     #row {
         flex-wrap: wrap;
     }
-
-
+    #contact-form {
+        width: 90%;
+        margin: 20px 20px;
+    }
 }
