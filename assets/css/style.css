@@ -306,28 +306,53 @@ hr {
 
 #contact-us, h1, p {
     text-align: center;
-    margin-top: 1px;
 }
+
+#contact-us, h2 {
+    margin: 10px 10px;
+}
+
 #contact-form {
     border: 1px solid #3a3a3a;
     border-radius: 10px;
     flex: 1;
     min-width: 300px;
-    margin: 0 200px;
+    margin: 20px 200px;
+    background-color: #f2f2f2;
 }
 
 #contact-form input, textarea {
     border: 1px solid #3a3a3a;
     height: 200px;
-    width: 275px;
+    width: 288px;
     padding: 5px;
 
 }
 
 #contact-form input {
     height: 30px;
-    width: 275px;
+    width: 288px;
     padding: 5px;
+
+}
+
+input[type=submit] {
+    color: #340804;
+    background-color: white;
+    border: 1px solid #340804;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    width: 288px;
+    margin-bottom: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #340804;
+    border: 1px solid lightgray;
+    color: #f2f2f2;
 }
 /* ---------Footer Section--------- */
 
