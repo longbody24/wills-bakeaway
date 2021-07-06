@@ -301,7 +301,7 @@ hr {
 #contact-us {
     display: flex;
     flex-direction: column;
-    margin: 0 300px;
+    margin: 0 10px;
 }
 
 #contact-us, h1, p {
@@ -312,15 +312,23 @@ hr {
     border: 1px solid #3a3a3a;
     border-radius: 10px;
     flex: 1;
-    margin-top: 10px;
     min-width: 300px;
+    margin: 0 200px;
 }
 
 #contact-form input, textarea {
     border: 1px solid #3a3a3a;
+    height: 200px;
+    width: 275px;
+    padding: 5px;
+
 }
 
-
+#contact-form input {
+    height: 30px;
+    width: 275px;
+    padding: 5px;
+}
 /* ---------Footer Section--------- */
 
 #footer-wrapper {
