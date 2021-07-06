@@ -36,41 +36,32 @@
         </div>
     </header>
     <!------Main Body------->
-    <section id="contact-form">
-        <div id=contact-wrapper>
-            <h1>Contact Us</h1>
-            <p>
-                Feel free to get in touch with any queries or questions, you can email us or call us on the details
-                below.
-            </p>
-            <form action="mailto:jmlcotton@gmail.com?subject=Will's Bakeaway Query" method="post" enctype="text/plain">
-                <label for="name">
-                    <h2>Name:</h2>
-                </label>
-                <input required type="text" name="name" size="50" placeholder="Your name">
-                <label for="mail">
-                    <h2>Email:</h2>
-                </label>
-                <input required type="email" name="mail" size="50" placeholder="example@example.com">
-                <label for="comment">
-                    <h2>Message:</h2>
-                </label>
-                <textarea class="longInput" cols="44" rows="3" name="comment" placeholder="Enter your message..." required></textarea>
-                <br><br>
-                <input type="submit" value="Send">
-                <input type="reset" value="Reset" class="reset">
-            </form>
-            <p class="phone">
-                OR
-            </p>
-            <h3>Call Us:</h3>
-            <i class="fas fa-phone"> 01234567890 </i>
-        
+    <section id="contact-us">
+        <h1 class="contact-title">
+            Contact Us
+        </h1>
+        <p>
+            Feel free to get in touch with any queries or questions, you can email us or call us on the details
+            below. (fields marked * mandatory fields.)
+        </p>
+        <form id="contact-form" action="mailto:jmlcotton@gmail.com?subject=Will's Bakeaway Query">
+            <label for="name">
+                <h2>Name:</h2>
+            </label>
+            <input type="text" name="name" placeholder="Your Name">
+            <label for="email">
+                <h2>Email Address: *</h2>
+            </label>
+            <input required type="text" name="email" placeholder="example@email.com">
+            <label for="comment">
+                <h2>Message: *</h2>
+            </label>
+            <textarea required name="comment" placeholder="Type your message here..." cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Send Message">
+        </form>
 
 
-
-
-        </div>
     </section>
 
     <!------Footer Section------->
