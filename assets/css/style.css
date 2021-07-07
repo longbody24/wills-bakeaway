@@ -237,7 +237,6 @@ hr {
 
 #product-image {
     flex: 1;
-    padding-right: 10px;
 }
 
 #product-details {
@@ -248,7 +247,7 @@ hr {
     padding-left: 10px;
 }
 
-#product-details h3 {
+/* #product-details h3 { 
     font-size: 1.1rem;
     text-decoration: underline;
 }
@@ -276,8 +275,6 @@ hr {
 }
 
 #product-details p {
-    /* padding-top: 10px; */
-    /* margin-bottom: 10px; */
     font-size: 1.0rem;
 }
 
@@ -288,7 +285,7 @@ hr {
 
 .phone_email {
     margin-bottom: 5px;
-}
+} */
 
 
 /* --------- Body Contact Us Form -------- */
@@ -455,7 +452,7 @@ input[type=submit]:hover {
         margin: 20px 50px;
     }
     #product-wrapper {
-        flex-direction: column;
+        margin:0 50px;
     }
 }
 
@@ -515,6 +512,9 @@ input[type=submit]:hover {
     #contact-form {
         width: 90%;
         margin: 20px 20px;
+    }
+    #product-wrapper {
+        margin:0 30px;
     }
    
 }
