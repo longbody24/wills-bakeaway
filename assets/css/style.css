@@ -457,6 +457,7 @@ input[type=submit]:hover {
     #product-wrapper {
         flex-direction: column;
         flex: 1;
+        margin: 30px;
     }
 
 }
@@ -518,4 +519,8 @@ input[type=submit]:hover {
         width: 90%;
         margin: 20px 20px;
     }
+    #product-wrapper {
+        margin: 10px;
+    }
+
 }
