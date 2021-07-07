@@ -106,13 +106,10 @@ hr {
     flex-direction: row;
     justify-content: space-between;
     flex-grow: 1;
+    margin: 0 50px;
 }
 
-.flexbox-grid .col {
-    margin: 0 10px;
-}
-
-.col img {
+.flexbox-grid .col img {
     width: 100%;
 }
 
