@@ -238,6 +238,7 @@ hr {
 
 #product-image {
     flex: 1;
+    border: 1px solid lightgray;
 }
 
 #product-details {
@@ -458,6 +459,7 @@ input[type=submit]:hover {
         flex-direction: column;
         flex: 1;
         margin: 30px;
+        gap: 20px;
     }
 
 }
