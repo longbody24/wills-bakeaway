@@ -165,8 +165,8 @@ hr {
 }
 
 .price {
-    color: red;
-    font-size: 1.1rem;
+    color: #340804;
+    font-size: 1.2rem;
 }
 
 .col-md-4 .button {
@@ -251,7 +251,7 @@ hr {
 
 #product-details h3 { 
     font-size: 1.1rem;
-    text-decoration: underline;
+    color: #340804;
 }
 
 .button1 {
@@ -275,6 +275,7 @@ hr {
 #product-details h1 {
     padding-top: 10px;
     font-size: 2.0rem;
+    color: #340804;
 }
 
 #product-details p {
@@ -287,8 +288,9 @@ hr {
     color: #3a3a3a;
 }
 
-.phone_email {
+.phone_email i {
     margin-bottom: 5px;
+    color: #340804;
 }
 
 
