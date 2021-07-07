@@ -138,7 +138,7 @@ hr {
 }
 
 #body-center .button {
-    margin-top: 15px;
+   margin: 15px 0;
 }
 
 
@@ -471,7 +471,7 @@ input[type=submit]:hover {
         /* gap: 20px; */
     }
     #body-center p {
-        padding: 0px 10px;
+        padding: 0px;
     }
 
 }
