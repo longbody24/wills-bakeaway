@@ -470,6 +470,9 @@ input[type=submit]:hover {
         margin: 30px;
         /* gap: 20px; */
     }
+    #body-center p {
+        padding: 0px 10px;
+    }
 
 }
 
@@ -533,8 +536,6 @@ input[type=submit]:hover {
     #product-wrapper {
         margin: 10px;
     }
-    #body-center p {
-        padding: 10px 10px;
-    }
+    
 
 }
