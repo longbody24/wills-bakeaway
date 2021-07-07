@@ -24,7 +24,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.1rem;
+    font-size: 1.0rem;
 }
 
 h4 {
@@ -171,7 +171,6 @@ hr {
 }
 
 .col-md-4 h3 {
-    font-size: 1.3rem;
     padding-top: 10px;
 }
 
