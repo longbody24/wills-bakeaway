@@ -536,5 +536,8 @@ input[type=submit]:hover {
     #product-wrapper {
         margin: 10px;
     }
+    #body-center p {
+        padding: 10px 10px;
+    }
 
 }
