@@ -469,7 +469,6 @@ input[type=submit]:hover {
         flex-direction: column;
         flex: 1;
         margin: 30px;
-        /* gap: 20px; */
     }
 
     #body-center p {
@@ -503,10 +502,6 @@ input[type=submit]:hover {
         flex-direction: column;
         align-items: center;
     }
-
-    /* #header-wrapper .col {
-        flex-grow: 1;
-    } */
 
     #header-nav a {
         padding: 0 10px 0px 10px;
