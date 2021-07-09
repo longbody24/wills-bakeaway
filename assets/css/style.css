@@ -203,22 +203,6 @@ hr {
     padding: 0 50px;
 }
 
-.iframe-container {
-    overflow: hidden;
-    padding-top: 56.25px;
-    position: relative;
-}
-
-.iframe-container iframe {
-    border: 0;
-    height: 100px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
-
 /* ---------Body Product Details Page --------- */
 
 #product-wrapper {
