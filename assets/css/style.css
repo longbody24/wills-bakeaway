@@ -239,6 +239,8 @@ hr {
     text-align: center;
     background-color: whitesmoke;
     padding: 20px;
+    border: 20px solid white;
+    border-left: 0;
 }
 
 .button1 {
