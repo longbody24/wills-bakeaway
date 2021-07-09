@@ -96,9 +96,6 @@ hr {
     padding-left: 10px;
 }
 
-
-
-
 /* ---------Body Section--------- */
 
 .flexbox-grid {
@@ -150,7 +147,6 @@ hr {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 20px;
-    /* justify-content: center; */
 }
 
 .col-md-4 {
@@ -184,7 +180,6 @@ hr {
     text-align: center;
     margin: 0 50px 10px 50px;
     flex-grow: 1;
-
 }
 
 #copy {
@@ -275,7 +270,6 @@ hr {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-
 }
 
 #product-details h1 {
@@ -337,7 +331,6 @@ textarea {
     height: 100px;
     min-width: 250px;
     padding: 5px;
-
 }
 
 #contact-form input {
@@ -346,7 +339,6 @@ textarea {
     padding: 5px;
     margin: 0px 10px 0 10px;
     align-content: center;
-
 }
 
 input[type=submit] {
@@ -374,7 +366,6 @@ input[type=submit]:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 #benefit-bar-container {
@@ -420,7 +411,6 @@ input[type=submit]:hover {
     font-size: 24px;
     text-align: center;
     background-color: #340804;
-
 }
 
 #social-links a {
@@ -447,7 +437,6 @@ input[type=submit]:hover {
 
     .flexbox-grid .col {
         flex: 1;
-        /* background-color: blue; */
     }
 
     #about-us-main {
@@ -474,12 +463,15 @@ input[type=submit]:hover {
     #body-center p {
         padding: 0px;
     }
-
 }
 
 @media screen and (max-width: 650px) {
     #header-wrapper .col {
         flex-grow: 1;
+    }
+
+    #header-nav a {
+        padding: 30px 20px 0px 20px;
     }
 }
 
@@ -502,6 +494,11 @@ input[type=submit]:hover {
         flex-direction: column;
         align-items: center;
     }
+
+    #header-wrapper .col {
+        flex-grow: 1;
+    }
+
 
     #header-nav a {
         padding: 0 10px 0px 10px;
@@ -542,4 +539,3 @@ input[type=submit]:hover {
         margin: 10px;
     }
 }
-
