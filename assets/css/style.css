@@ -180,6 +180,7 @@ hr {
     text-align: center;
     margin: 0 50px 10px 50px;
     flex-grow: 1;
+    min-height: 65vh;
 }
 
 #copy {
@@ -304,6 +305,7 @@ hr {
     flex: 1;
     align-items: center;
     justify-content: center;
+    min-height: 65vh;
 }
 
 #contact-us,
