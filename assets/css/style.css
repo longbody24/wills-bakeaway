@@ -65,11 +65,14 @@ hr {
 
 #header-logo {
     flex: 1;
+    flex-direction: row;
 
 }
 
 #header-nav {
     flex: 7;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #header-nav a {
@@ -306,7 +309,7 @@ h2 {
 #contact-form {
     border: 1px solid #3a3a3a;
     border-radius: 10px;
-    width: 30%;
+    width: 40%;
     background-color: #f2f2f2;
     margin: 30px 300px;
     padding-bottom: 20px;
@@ -316,13 +319,13 @@ h2 {
 textarea {
     border: 1px solid #3a3a3a;
     height: 100px;
-    min-width: 250px;
+    min-width: 240px;
     padding: 5px;
 }
 
 #contact-form input {
     height: 30px;
-    min-width: 250px;
+    min-width: 240px;
     padding: 5px;
     margin: 0px 10px 0 10px;
     align-content: center;
@@ -337,7 +340,7 @@ input[type=submit] {
     border-radius: 5px;
     font-family: 'Lato', sans-serif;
     cursor: pointer;
-    width: 266px;
+    min-width: 240px;
     margin-bottom: 20px;
 }
 
@@ -437,7 +440,7 @@ input[type=submit]:hover {
     }
 
     #contact-form {
-        width: 70%;
+        width: 40%;
         margin: 20px 50px;
     }
 
@@ -524,5 +527,25 @@ input[type=submit]:hover {
 
     #product-wrapper {
         margin: 10px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+  
+    #header-nav .col {
+        display: flex;
+    }
+
+    #contact-form input,
+    textarea {
+        min-width: 200px;
+    }
+
+    #contact-form input {
+        min-width: 200px;
+    }
+
+    input[type=submit] {
+        min-width: 200px;
     }
 }
