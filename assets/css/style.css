@@ -107,6 +107,7 @@ hr {
     justify-content: space-between;
     flex-grow: 1;
     margin: 0 50px;
+    min-height: 66vh;
 }
 
 .flexbox-grid .col img {
