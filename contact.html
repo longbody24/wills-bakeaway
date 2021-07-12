@@ -48,32 +48,30 @@
             Feel free to get in touch with any queries or questions, you can email us or call us on the details
             below.
         </p>
-            <form id="contact-form" action="mailto:jmlcotton@gmail.com?subject=Website-Enquiry" method="POST">
-                <label for="name">
-                    <p>Name:</p>
-                </label>
-                <input type="text" name="name" placeholder="Your Name" aria-label="Enter your name">
-                <label for="email">
-                    <p>Email Address: *</p>
-                </label>
-                <input required aria-required="true" type="email" name="email" placeholder="example@email.com" aria-label="Enter your email address">
-                <label for="comment">
-                    <p>Message: *</p>
-                </label>
-                <textarea required aria-required="true" name="comment" placeholder="Type your message here..." aria-label="Type your message here."></textarea>
-                <br>
+        <div id="contact-form">
+            <form action="mailto:jmlcotton@gmail.com?subject=Website-Enquiry" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Your Name" aria-label="Enter your name">
+                <label for="email">Email Address: *</label>
+                <input required aria-required="true" type="email" name="email" id="email"
+                    placeholder="example@email.com" aria-label="Enter your email address">
+                <label for="comment">Message: *</label>
+                <textarea required aria-required="true" name="comment" id="comment"
+                    placeholder="Type your message here..." aria-label="Type your message here."></textarea>
                 <input type="submit" value="Send Message">
+
             </form>
-            <p>
-                (fields marked * mandatory fields.)
-            </p>
-            <br>
-            or CALL US
-            <br>
-            <br>
-            <p class="phone-email">
-                <i class="fas fa-phone"> 01234567890</i>
-            </p>
+        </div>
+        <p>
+            (fields marked * mandatory fields.)
+        </p>
+        <br>
+        or CALL US
+        <br>
+        <br>
+        <p class="phone-email">
+            <i class="fas fa-phone"> 01234567890</i>
+        </p>
     </section>
 
     <!--Footer-->
@@ -93,10 +91,14 @@
             </div>
             <div id="social-links">
                 <h3>Follow us:</h3>
-                <a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-square" aria-label="Follow us on facebook (opens in a new tab)"></a>
-                <a href="https://twitter.com/?lang=en-gb" target="_blank" class="fab fa-twitter" aria-label="Follow us on twitter (opens in a new tab)"></a>
-                <a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram-square" aria-label="Follow us on instagram (opens in a new tab)"></a>
-                <a href="https://www.tiktok.com/en" target="_blank" class="fab fa-tiktok" aria-label="Follow us on tik-tok (opens in a new tab)"></a>
+                <a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-square"
+                    aria-label="Follow us on facebook (opens in a new tab)"></a>
+                <a href="https://twitter.com/?lang=en-gb" target="_blank" class="fab fa-twitter"
+                    aria-label="Follow us on twitter (opens in a new tab)"></a>
+                <a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram-square"
+                    aria-label="Follow us on instagram (opens in a new tab)"></a>
+                <a href="https://www.tiktok.com/en" target="_blank" class="fab fa-tiktok"
+                    aria-label="Follow us on tik-tok (opens in a new tab)"></a>
             </div>
         </div>
     </footer>

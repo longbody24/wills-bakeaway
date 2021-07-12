@@ -324,17 +324,14 @@ p {
     text-align: center;
 }
 
-#contact-form p {
-    margin: 10px 10px;
-}
-
 #contact-form {
     border: 1px solid #3a3a3a;
     border-radius: 10px;
     width: 50%;
     background-color: #f2f2f2;
     margin: 30px 300px;
-    padding-bottom: 20px;
+    padding: 20px;
+    align-content: center;
 }
 
 #contact-form input,
@@ -343,6 +340,8 @@ textarea {
     height: 100px;
     min-width: 240px;
     padding: 5px;
+    display: block;
+    margin: 10px auto;
 }
 
 #contact-form input {
@@ -351,6 +350,8 @@ textarea {
     padding: 5px;
     margin: 0px 10px 0 10px;
     align-content: center;
+    display: block;
+    margin: 10px auto;
 }
 
 input[type=submit] {
@@ -370,6 +371,10 @@ input[type=submit]:hover {
     background-color: #340804;
     border: 1px solid lightgray;
     color: #f2f2f2;
+}
+
+#contact-form label {
+    margin-bottom: 10px;
 }
 
 /* ---------Footer Section--------- */
