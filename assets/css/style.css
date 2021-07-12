@@ -41,6 +41,7 @@ h4 {
     font-family: 'Lato', sans-serif;
     cursor: pointer;
     width: 140px;
+    font-size: 0.9rem;
 }
 
 .button:hover {
@@ -176,15 +177,19 @@ hr {
 .price {
     color: #340804;
     font-size: 1rem;
+    margin-bottom: 5px;
 }
 
 .col-md-4 .button {
-    margin: 5px 0;
+    text-decoration: none;
+    padding: 5px;
+    margin-top; 10px;
 }
 
 .col-md-4 h3 {
     padding-top: 10px;
 }
+
 
 /* ---------Body About Us --------- */
 
