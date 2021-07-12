@@ -183,7 +183,7 @@ hr {
 .col-md-4 .button {
     text-decoration: none;
     padding: 5px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .col-md-4 h3 {
@@ -324,15 +324,14 @@ p {
     text-align: center;
 }
 
-#contact-us 
-.label {
+#contact-form p {
     margin: 10px 10px;
 }
 
 #contact-form {
     border: 1px solid #3a3a3a;
     border-radius: 10px;
-    width: 40%;
+    width: 50%;
     background-color: #f2f2f2;
     margin: 30px 300px;
     padding-bottom: 20px;
@@ -462,11 +461,6 @@ input[type=submit]:hover {
         width: auto;
     }
 
-    #contact-form {
-        width: 40%;
-        margin: 20px 50px;
-    }
-
     #product-wrapper {
         flex-direction: column;
         flex: 1;
@@ -512,7 +506,6 @@ input[type=submit]:hover {
         flex-grow: 1;
     }
 
-
     #header-nav a {
         padding: 0 10px 0px 10px;
     }
@@ -544,21 +537,25 @@ input[type=submit]:hover {
         flex-direction: column;
     }
 
-    #contact-form {
-        width: 90%;
-        margin: 20px 20px;
-    }
-
     #product-wrapper {
         margin: 10px;
         flex: 1;
     }
+
+      #contact-form {
+        width: 80%;
+        margin: 20px 20px;
+    }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 350px) {
   
     #header-nav .col {
         display: flex;
+    }
+
+    #contact-form {
+        width: 90%;
     }
 
     #contact-form input,
