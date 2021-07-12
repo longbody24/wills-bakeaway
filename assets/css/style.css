@@ -219,6 +219,11 @@ hr {
     padding: 0 50px;
 }
 
+.bake-video {
+    height: 315px;
+    width: 550px;
+}
+
 /* ---------Body Product Details Page --------- */
 
 #product-wrapper {
