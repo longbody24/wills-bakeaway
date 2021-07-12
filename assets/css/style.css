@@ -324,8 +324,8 @@ p {
     text-align: center;
 }
 
-#contact-us,
-h2 {
+#contact-us 
+.label {
     margin: 10px 10px;
 }
 
