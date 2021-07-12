@@ -177,10 +177,10 @@ hr {
 .price {
     color: #340804;
     font-size: 1rem;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
-.col-md-4 .button {
+.col-md-4, .button {
     text-decoration: none;
     padding: 5px;
     margin-top: 10px;
@@ -188,6 +188,7 @@ hr {
 
 .col-md-4 h3 {
     padding-top: 10px;
+    margin-bottom: 5px;
 }
 
 
