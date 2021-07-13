@@ -62,7 +62,7 @@ hr {
 
 #header-wrapper {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #header-logo {
@@ -236,7 +236,7 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 140px;
+    margin: 0 40px;
     border: 1px solid lightgray;
 }
 
