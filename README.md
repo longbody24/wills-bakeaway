@@ -12,6 +12,8 @@ Clear signposting will enable customers to get in contact with any questions and
 * New and returning customers are able to speedily navigate the site and view all available products.
 * If customers have any issues then they are able to quickly find contact details to reach out for help
 
+Using my experience of working in E-commerce fashion websites I have used this knowledge of customer UX to try to make the UX experience as slick as possible.
+
 Wireframes for the both desktop & mobile can be found [Here](assets/Wireframes/Wills_Bakeaway_Wireframes.pdf)
 
 
