@@ -163,7 +163,6 @@ hr {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 20px;
-    height: 130vh;
 }
 
 .col-md-4 {
@@ -468,12 +467,11 @@ input[type=submit]:hover {
         height: 100%;
         width: auto;
     }
+
     #body-center p {
         padding: 0px;
     }
 }
-
-
 
 @media screen and (max-width: 800px) {
     #product-wrapper {
@@ -482,6 +480,7 @@ input[type=submit]:hover {
         margin: 10px;
         height: 140vh;
     }
+
     #product-details {
         border-left: 20px solid white;
     }
@@ -491,9 +490,11 @@ input[type=submit]:hover {
     #header-wrapper .col {
         flex-grow: 1;
     }
-}
 
-/* ----- Body Responsive max 600px - Mobile------- */
+    #product-wrapper {
+        height: 126vh;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .flexbox-grid {
@@ -544,11 +545,11 @@ input[type=submit]:hover {
         flex-direction: column;
     }
 
-    /* #product-wrapper {
+    #product-wrapper {
         margin: 10px;
         flex: 1;
-    } */
-      
+        height: 141vh;
+    }
 
     #contact-form {
         width: 80%;
@@ -558,14 +559,26 @@ input[type=submit]:hover {
     #intro-copy {
         margin-top: 20px;
     }
+
     #header-nav a {
         padding: 5px 25px;
         margin-top: 0px;
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
+    #product-wrapper {
+        height: 154vh;
+    }
+}
 
+@media screen and (max-width: 375px) {
+    #product-wrapper {
+        height: 124vh;
+    }
+}
+
+@media screen and (max-width: 350px) {
     #header-nav {
         display: flex;
     }
@@ -586,10 +599,27 @@ input[type=submit]:hover {
     input[type=submit] {
         min-width: 200px;
     }
+
     #header-nav a {
         padding: 10px 12px;
     }
+
     #benefit-bar-container .col {
         padding: 10px 11px 10px 11px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #product-wrapper {
+        height: 159vh;
+        width: auto;
+    }
+    
+    #product-details ul {
+        width: 200px;
+    }
+
+    #product-details h3 {
+        width: 200px;
     }
 }
