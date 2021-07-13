@@ -62,6 +62,7 @@ hr {
 
 #header-wrapper {
     display: flex;
+    margin-bottom: 20px;
 }
 
 #header-logo {
@@ -315,7 +316,7 @@ hr {
     flex: 1;
     align-items: center;
     justify-content: center;
-    min-height: 65vh;
+    min-height: 74vh;
 }
 
 #contact-us,
@@ -389,7 +390,7 @@ input[type=submit]:hover {
     text-align: center;
     display: inline-flex;
     color: #3a3a3a;
-    padding: 10px 30px 10px 30px;
+    padding: 20px 30px 10px 30px;
     max-width: 100%;
     background-color: #fff;
 }
@@ -560,7 +561,7 @@ input[type=submit]:hover {
     }
 
     #contact-form {
-        width: 90%;
+        width: 75%;
     }
 
     #contact-form input,
