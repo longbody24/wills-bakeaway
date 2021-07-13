@@ -149,7 +149,7 @@ hr {
 #intro-copy {
     border: 1px solid lightgray;
     background-color: #f2f2f2;
-    margin: 0 40px 10px 40px;
+    margin: 0 34px 10px 34px;
     text-align: center;
     padding: 20px 10px;
 }
@@ -163,6 +163,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 20px;
+    height: 130vh;
 }
 
 .col-md-4 {
@@ -578,5 +579,8 @@ input[type=submit]:hover {
     }
     #header-nav a {
         padding: 10px 12px;
+    }
+    #benefit-bar-container .col {
+        padding: 10px 11px 10px 11px;
     }
 }
