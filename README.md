@@ -41,11 +41,13 @@ Clear signposting will enable customers to get in contact with any questions and
 * If customers do not want to email again the phone number is present so they can call directly.
 
 ## Testing
+Throghout the project I used a number of resources and tools to help me along my way. Starting with google dev tools to make alterations on the fly before hard coding into gitpod and commiting.
 
+I also shared my site with one of my peers who recentlty qualified from his course and he pointed out a few minor tweaks to pick up on, mainly around how the site behaved responsively at a very specific size.
 
 ### Responsive Testing
 * Site was tested physically on iPad, Samsung Note 8+, Macbook Air 2012, iPhone 6, iPhone 8 and on a larger monitor 21 inches.
-* In addition I spent alot of time using [Responsinator] (https://www.responsinator.com/)
+* In addition I spent alot of time using [Responsinator] (https://www.responsinator.com/) to try as many devices and variations as possible.
 
 
 ### Validator Testing
@@ -72,6 +74,25 @@ Clear signposting will enable customers to get in contact with any questions and
 * HP Slideshow - As above to show off more brand content to keep the customers interest
 * Instagram Feed - To help keey site content fresh
 * Live Chat - Another useful feature to help customers convert.
+
+## Deployment
+
+LIVE Site URL: https://longbody24.github.io/jc-project-one/index.html
+
+
+## Credits
+
+### Media
+* All images were provided by Mr Will Dixon of Will's Bakeaway.
+* Video taken from Will's Bakeaway Youtube channel [WillsBakeawayYoutube] (https://www.youtube.com/channel/UCC8cfy3aebdaWS8tiZFS5ow)
+
+
+### Content
+* All written copy written by myself Jamie Cotton
+* Footer Icons taken from [FontAwesome] (https://fontawesome.com/)
+* Flexbox influence taken from [CssTricks] (https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+
 
 
 
