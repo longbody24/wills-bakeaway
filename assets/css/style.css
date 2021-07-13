@@ -471,15 +471,21 @@ input[type=submit]:hover {
     #body-center p {
         padding: 0px;
     }
+    #product-wrapper {
+        flex-direction: column;
+        flex: 1;
+        margin: 0;
+        height: 129vh;
+    }
 }
 
 @media screen and (max-width: 800px) {
-    #product-wrapper {
+    /* #product-wrapper {
         flex-direction: column;
         flex: 1;
         margin: 10px;
         height: 140vh;
-    }
+    } */
 
     #product-details {
         border-left: 20px solid white;
