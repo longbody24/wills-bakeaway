@@ -90,13 +90,10 @@ I also shared my site with one of my peers who recentlty qualified from his cour
 
 Publishing LIVE version of site.
 
-1.Go to the remote repository at https://github.com/longbody24/wills-bakeaway hosted by GitHub
-2.Click "Settings"
-3.In "GitHub Pages", select a publishing source (master branch in the drop-down menu)
-4.The site is now published at https://longbody24.github.io/wills-bakeaway/
-
-LIVE Site URL: https://longbody24.github.io/wills-bakeaway/
-
+1. Go to the remote repository at https://github.com/longbody24/wills-bakeaway hosted by GitHub
+2. Click "Settings"
+3. In "GitHub Pages", select a publishing source (master branch in the drop-down menu)
+4. The site is now published at https://longbody24.github.io/wills-bakeaway/
 
 ## CREDITS
 
