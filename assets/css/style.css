@@ -81,7 +81,6 @@ hr {
     font-size: 18px;
     text-transform: uppercase;
     padding: 50px 30px;
-    align-content: flex-start;
 }
 
 #header-nav a:hover {
@@ -482,9 +481,9 @@ input[type=submit]:hover {
         flex-grow: 1;
     }
 
-    #header-nav a {
+    /* #header-nav a {
         padding: 30px 20px 0px 20px;
-    }
+    } */
 }
 
 /* ----- Body Responsive max 600px - Mobile------- */
@@ -509,10 +508,6 @@ input[type=submit]:hover {
 
     #header-wrapper .col {
         flex-grow: 1;
-    }
-
-    #header-nav a {
-        padding: 0 10px 0px 10px;
     }
 
     #benefit-bar-container #benefit-left {
@@ -555,11 +550,14 @@ input[type=submit]:hover {
     #intro-copy {
         margin-top: 20px;
     }
+    #header-nav a {
+        padding: 20px 30px;
+    }
 }
 
 @media screen and (max-width: 350px) {
 
-    #header-nav .col {
+    #header-nav {
         display: flex;
     }
 
@@ -578,5 +576,8 @@ input[type=submit]:hover {
 
     input[type=submit] {
         min-width: 200px;
+    }
+    #header-nav a {
+        padding: 10px 12px;
     }
 }
