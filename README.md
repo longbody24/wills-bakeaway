@@ -7,7 +7,7 @@ Will's Bakeaway is a start up business selling both ready made brownies along wi
 
 Clear signposting will enable customers to get in contact with any questions and the site is responsive to allow customers to have a good user experience accross Mobile, Tablet and Desktop.
 
-##F eatures
+## Features
 
 ### Sitewide Header Navigation
 * Site wide responsive header navigation. Includes logo for brand consistency as well as links to Bakes, About Us and Contact us landing pages.
