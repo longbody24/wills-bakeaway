@@ -180,7 +180,8 @@ hr {
     margin-bottom: 10px;
 }
 
-.col-md-4, .button {
+.col-md-4,
+.button {
     text-decoration: none;
     padding: 5px;
     margin-top: 10px;
@@ -548,14 +549,18 @@ input[type=submit]:hover {
         flex: 1;
     }
 
-      #contact-form {
+    #contact-form {
         width: 80%;
         margin: 20px 20px;
+    }
+
+    #intro-copy {
+        margin-top: 20px;
     }
 }
 
 @media screen and (max-width: 350px) {
-  
+
     #header-nav .col {
         display: flex;
     }
