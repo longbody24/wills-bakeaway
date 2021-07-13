@@ -65,12 +65,10 @@ hr {
 }
 
 #header-logo {
-    flex: 1;
     flex-direction: row;
 }
 
 #header-nav {
-    flex: 7;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -82,7 +80,8 @@ hr {
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
-    padding: 0 30px;
+    padding: 50px 30px;
+    align-content: flex-start;
 }
 
 #header-nav a:hover {
