@@ -254,6 +254,7 @@ hr {
     padding: 20px;
     border: 20px solid white;
     border-left: 0;
+    height: auto;
 }
 
 .button1 {
@@ -467,15 +468,22 @@ input[type=submit]:hover {
         height: 100%;
         width: auto;
     }
+    #body-center p {
+        padding: 0px;
+    }
+}
 
+
+
+@media screen and (max-width: 800px) {
     #product-wrapper {
         flex-direction: column;
         flex: 1;
-        margin: 30px;
+        margin: 10px;
+        height: 140vh;
     }
-
-    #body-center p {
-        padding: 0px;
+    #product-details {
+        border-left: 20px solid white;
     }
 }
 
@@ -536,10 +544,11 @@ input[type=submit]:hover {
         flex-direction: column;
     }
 
-    #product-wrapper {
+    /* #product-wrapper {
         margin: 10px;
         flex: 1;
-    }
+    } */
+      
 
     #contact-form {
         width: 80%;
