@@ -12,6 +12,7 @@ body {
     color: #3a3a3a;
     font-family: 'Nunito', sans-serif;
     position: relative;
+    font-size: 1.1rem;
 }
 
 footer {
@@ -24,11 +25,11 @@ h2 {
 }
 
 h3 {
-    font-size: 1.0rem;
+    font-size: 1.1rem;
 }
 
 h4 {
-    font-size: 1.1rem;
+    font-size: 1.0rem;
 }
 
 .button {
@@ -438,8 +439,8 @@ input[type=submit]:hover {
     margin-bottom: 20px;
 }
 
-#social-links h3 {
-    padding: 0 20px 0 20px;
+#social-links, h4 {
+    padding: 10px 20px 0 20px;
     text-decoration: none;
     color: #f2f2f2;
     padding: 0 0 10px 0;
