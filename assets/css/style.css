@@ -60,7 +60,7 @@ hr {
     color: #340804;
 }
 
-/* ---------Header Section--------- */
+/* --------- Header --------- */
 
 #header-wrapper {
     display: flex;
@@ -101,7 +101,7 @@ hr {
     padding-left: 10px;
 }
 
-/* ---------Body Section--------- */
+/* --------- Homepage --------- */
 
 .flexbox-grid {
     display: flex;
@@ -146,7 +146,7 @@ hr {
 
 
 
-/* ---------Body BAKES--------- */
+/* --------- Products --------- */
 
 #intro-copy {
     border: 1px solid #3a3a3a;
@@ -194,7 +194,7 @@ hr {
 }
 
 
-/* ---------Body About Us --------- */
+/* --------- About Us --------- */
 
 
 #about-us-main {
@@ -231,7 +231,7 @@ hr {
    height: 450px;
 }
 
-/* ---------Body Product Details Page --------- */
+/* --------- Product Details Page --------- */
 
 #product-wrapper {
     display: flex;
@@ -310,7 +310,7 @@ hr {
 }
 
 
-/* --------- Body Contact Us Form -------- */
+/* --------- Contact Us Form -------- */
 
 #contact-us {
     display: flex;
@@ -380,7 +380,7 @@ input[type=submit]:hover {
     margin-bottom: 10px;
 }
 
-/* ---------Footer Section--------- */
+/* ---------Footer--------- */
 
 #footer-wrapper {
     display: flex;
@@ -448,7 +448,7 @@ input[type=submit]:hover {
 }
 
 
-/* ----- Body Responsive max 1200px - Tablet ------- */
+/* ----- Responsive @Media Queries ------- */
 
 @media screen and (max-width: 1200px) {
     .flexbox-grid {
