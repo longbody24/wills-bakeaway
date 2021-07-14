@@ -46,7 +46,7 @@ h4 {
 
 .button:hover {
     background-color: #340804;
-    border: 1px solid lightgray;
+    border: 1px solid #3a3a3a;
     color: #f2f2f2;
 }
 
@@ -147,7 +147,7 @@ hr {
 /* ---------Body BAKES--------- */
 
 #intro-copy {
-    border: 1px solid lightgray;
+    border: 1px solid #3a3a3a;
     background-color: #f2f2f2;
     margin: 0 34px 10px 34px;
     text-align: center;
@@ -236,7 +236,7 @@ hr {
     flex-direction: row;
     justify-content: space-between;
     margin: 0 40px;
-    border: 1px solid lightgray;
+    border: 1px solid #3a3a3a;
 }
 
 #product-image {
@@ -248,7 +248,7 @@ hr {
 #product-details {
     flex: 1;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: #f2f2f2;
     padding: 20px;
     border: 20px solid white;
     border-left: 0;
@@ -256,8 +256,8 @@ hr {
 }
 
 .button1 {
-    color: white;
-    background-color: black;
+    color: #f2f2f2;
+    background-color: #340804;
     padding: 10px 20px;
     text-transform: uppercase;
     border-radius: 5px;
@@ -357,7 +357,7 @@ textarea {
 
 input[type=submit] {
     color: #340804;
-    background-color: white;
+    background-color: #f2f2f2;
     border: 1px solid #340804;
     padding: 10px 20px;
     text-transform: uppercase;
@@ -370,7 +370,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #340804;
-    border: 1px solid lightgray;
+    border: 1px solid #3a3a3a;
     color: #f2f2f2;
 }
 
@@ -434,14 +434,14 @@ input[type=submit]:hover {
 #social-links a {
     padding: 0 20px 0 20px;
     text-decoration: none;
-    color: whitesmoke;
+    color: #f2f2f2;
     margin-bottom: 20px;
 }
 
 #social-links h3 {
     padding: 0 20px 0 20px;
     text-decoration: none;
-    color: whitesmoke;
+    color: #f2f2f2;
     padding: 0 0 10px 0;
 }
 
