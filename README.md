@@ -35,8 +35,7 @@ Wireframes for the both desktop & mobile can be found [Here](assets/Wireframes/W
 ### Color Scheme
 * Have tried to keep the site relatively clean using only 3 colors the dark brown of the company Logo 
 
-![ColorScheme](assets/readme/site-colors.png)
-Format: ![Site Colors](url)
+ <img src="assets/readme/site-colors.png"/>
 
 #340804 - Button Hover, Footer Background
 #f2f2f2 - Button Text & Background Color
