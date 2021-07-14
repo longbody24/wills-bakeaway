@@ -483,6 +483,7 @@ input[type=submit]:hover {
     }
     #about-us-main {
         height: 85vh;
+        margin: 0 10px;
     }
 }
 
@@ -490,9 +491,11 @@ input[type=submit]:hover {
     #header-wrapper .col {
         flex-grow: 1;
     }
-
     #product-wrapper {
         height: 126vh;
+    }
+    #copy {
+        padding: 5px 5px;
     }
 }
 
@@ -533,6 +536,7 @@ input[type=submit]:hover {
 
     #about-us-main {
         flex-direction: column;
+        height: 115vh;
     }
 
     #row {
@@ -556,7 +560,7 @@ input[type=submit]:hover {
     }
 
     #header-nav a {
-        padding: 5px 20px;
+        padding: 5px 15px;
         margin-top: 0px;
     }
     .bake-video {
@@ -568,15 +572,27 @@ input[type=submit]:hover {
     }
 }
 
+@media screen and (max-width: 420px) {
+    #about-us-main {
+        height: 110vh;
+    }
+}
+
 @media screen and (max-width: 400px) {
     #product-wrapper {
         height: 154vh;
     }
+    #about-us-main {
+        height: 135vh;
+    }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     #product-wrapper {
         height: 124vh;
+    }
+    #about-us-main {
+        height: 128vh;
     }
 }
 
@@ -609,6 +625,9 @@ input[type=submit]:hover {
     #benefit-bar-container .col {
         padding: 10px 11px 10px 11px;
     }
+    #about-us-main {
+        height: 155vh;
+    }
 }
 
 @media screen and (max-width: 300px) {
@@ -626,5 +645,8 @@ input[type=submit]:hover {
     }
     h2 {
         font-size: 0.9em;
+    }
+    #about-us-main {
+        height: 150vh;
     }
 }
