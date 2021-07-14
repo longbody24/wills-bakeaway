@@ -2,6 +2,9 @@
 
 Deployed Website URL - https://longbody24.github.io/wills-bakeaway/
 
+<img src="assets/readme/wb_all_devices.jpg"/>
+
+
 ## INTRODUCTION
 Will's Bakeaway is a start up business (Set up by my cousin Will)  selling both ready made brownies along with pre measured baking kits with easy to follow instructions for customers to try themselves at home or get little ones involved in baking for the first time. The Website will give the business an online prescence and enable customers to see exactly what kind of products are avaialble to them and give them a little bit information about the company within the About Us page.
 
