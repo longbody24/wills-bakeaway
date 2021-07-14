@@ -4,12 +4,25 @@ Deployed Website URL - https://longbody24.github.io/wills-bakeaway/
 
 <img src="assets/readme/wb_all_devices.jpg" width="800px">
 
+## CONTENTS
+1.  [Introduction](#intro)
+1.  [User Experience (UX)](#ux)
+3.  [Design](#design)
+2.  [Features](#features)
+3.  [Technologies Used](#technologies)
+4.  [Testing](#testing)
+5.  [Deployment](#deployment)
+6.  [Known Bugs](#bugs)
+7.  [Future Development](#develop)
+7.  [Credits](#credits)
 
+<a name="intro"></a>
 ## INTRODUCTION
 Will's Bakeaway is a start up business (Set up by my cousin Will) selling both ready made brownies along with pre measured baking kits with easy to follow instructions for customers to try themselves at home or get little ones involved in baking for the first time. The Website will give the business an online prescence and enable customers to see exactly what kind of products are avaialble to them and with a little bit information about the company within the About Us page and links to social channels.
 
 Clear signposting will enable customers to get in contact with any questions and the site is responsive to allow customers to have a good user experience accross Mobile, Tablet and Desktop.
 
+<a name="ux"></a>
 ## USER EXPERIENCE
 
 ### User Stories
@@ -30,6 +43,7 @@ Clear signposting will enable customers to get in contact with any questions and
 
 WIth these user stories alongside my extensive experience of working in an E-commerce fashion website. I have tried to implement a slick easy to use customer experience.
 
+<a name="design"></a>
 ## DESIGN
 
 ### Color Scheme
@@ -49,13 +63,14 @@ I have run the site through [WaveWebAccessibility](https://wave.webaim.org/) and
 
 ### Wireframes
 * All wireframes were produced using AdobeXD although close to the final design there were some tweak alongs the design process.
-[LaptopWireframes]()
-[MobileWireframes]()
-[TabletWireframes]()
+    * [LaptopWireframes]()
+    * [MobileWireframes]()
+    * [TabletWireframes]()
 
 ### Responsiveness
 * All pages have been designed responsively to behave correctly no matter the design. On smaller mobile devices I decided to hide on of the main hero images to ensure the page depth was not too long.
 
+<a name="features"></a>
 ## SITE FEATURES
 
 ### Site Wide Header Navigation
@@ -90,6 +105,7 @@ I have run the site through [WaveWebAccessibility](https://wave.webaim.org/) and
 * Validated Form. Email Address & Message are required fields to be able to submit the message. (used the form dump link from the forms module on the couse.)
 * Phone no. clearly displayed in case customers do not want to email.
 
+<a name="technologies"></a>
 ## Technologies Used
 
 ### Languages Used
@@ -107,6 +123,7 @@ I have run the site through [WaveWebAccessibility](https://wave.webaim.org/) and
 * [TinyJPG](https://tinyjpg.com/) - TinyJPG was used to lower the resolution of the images.
 * [Gimp](https://www.gimp.org/) - Gimp Image manipuation program used for resizing images.
 
+<a name="testing"></a>
 ## TESTING
 Throghout the project I used a number of resources and tools to help me along my way. Starting with google dev tools to make alterations on the fly before hard coding into gitpod and commiting. I also shared my site with one of my peers who recentlty qualified from his course and he pointed out a few minor tweaks to pick up on, mainly around how the site behaved responsively at a very specific size. In addition I did request on slack a peer review but as yet have had no feedback.
 
@@ -125,17 +142,19 @@ Throghout the project I used a number of resources and tools to help me along my
 ### Accessibility Testing
 * Site run through [WaveWebAccessibility](https://wave.webaim.org/) any errors corrected and retested.
 
-### Bugs
+<a name="bugs"></a>
+## BUGS
 * Embedding a reponsive youtube video has proven tricky, I have had to inplement a bit of a fudge managing the video size at various breakpoints rather than be truly reponsive. Tried various solutions found on Google & Slack but as of yet not joy.
 
-
-### Future Releases
+<a name="development"></a>
+## FUTURE DEV
 * Obviously the ability to shop directly from the site is imperative so a full ecommerce checkout would be top of the list.
 * Product Slideshows. Again product photography is king to sell the product to the customer. I did look into slideshows etc but it appeared that the majority of solutions required Javascript which I have not yet covered off in the course.
 * HP Slideshow - As above to show off more brand content to keep the customers interest
 * Instagram Feed - To help keey site content fresh
 * Live Chat - Another useful feature to help customers convert.
 
+<a name="deployment"></a>
 ## DEPLOYMENT
 
 Publishing LIVE version of site.
@@ -145,6 +164,7 @@ Publishing LIVE version of site.
 3. In "GitHub Pages", select a publishing source (master branch in the drop-down menu)
 4. The site is now published at https://longbody24.github.io/wills-bakeaway/
 
+<a name="credits"></a>
 ## CREDITS
 
 ### Media
