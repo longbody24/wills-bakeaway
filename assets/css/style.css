@@ -21,7 +21,7 @@ footer {
 }
 
 h2 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 h3 {
@@ -29,7 +29,8 @@ h3 {
 }
 
 h4 {
-    font-size: 1.0rem;
+    font-size: 1.1rem;
+    margin-top: 20px;
 }
 
 .button {
@@ -622,5 +623,8 @@ input[type=submit]:hover {
 
     #product-details h3 {
         width: 200px;
+    }
+    h2 {
+        font-size: 0.9em;
     }
 }
