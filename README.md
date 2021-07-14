@@ -33,11 +33,16 @@ Wireframes for the both desktop & mobile can be found [Here](assets/Wireframes/W
 ## DESIGN
 
 ### Color Scheme
-* Have tried to keep the site relatively clean using the dark brown of the company Logo 
+* Have tried to keep the site relatively clean using only 3 colors the dark brown of the company Logo 
+
+![ColorScheme](assets/readme/site-colors.png)
+Format: ![Site Colors](url)
 
 #340804 - Button Hover, Footer Background
 #f2f2f2 - Button Text & Background Color
 #3a3a3a - Font colour & Borders
+
+
 
 ## SITE FEATURES
 
