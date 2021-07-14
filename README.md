@@ -7,14 +7,14 @@ Deployed Website URL - https://longbody24.github.io/wills-bakeaway/
 ## CONTENTS
 1.  [Introduction](#intro)
 1.  [User Experience (UX)](#ux)
-3.  [Design](#design)
-2.  [Features](#features)
-3.  [Technologies Used](#technologies)
-4.  [Testing](#testing)
-5.  [Deployment](#deployment)
-6.  [Known Bugs](#bugs)
-7.  [Future Development](#develop)
-7.  [Credits](#credits)
+1.  [Design](#design)
+1.  [Site Features](#features)
+1.  [Technologies Used](#technologies)
+1.  [Testing](#testing)
+1.  [Deployment](#deployment)
+1.  [Known Bugs](#bugs)
+1.  [Future Development](#develop)
+1.  [Credits](#credits)
 
 <a name="intro"></a>
 ## INTRODUCTION
@@ -28,18 +28,18 @@ Clear signposting will enable customers to get in contact with any questions and
 ### User Stories
 - #### As a new visitor seeing the site for the first time:
    1. I want to easily understand the purpose and layout of the site.
-   2. Be able to intuitively navigate the site to browse all content.
-   3. Learn more about the business from a decicated page.
-   4. If I have any questions be able to find contact details easily.
-   5. Be able to view all products available.
-   6. Be able to drill down into individual products.
-   7. Easily connect with the business via social media channels.
-   8. Clear product photography to help me in the buying process.
+   1. Be able to intuitively navigate the site to browse all content.
+   1. Learn more about the business from a decicated page.
+   1. If I have any questions be able to find contact details easily.
+   1. Be able to view all products available.
+   1. Be able to drill down into individual products.
+   1. Easily connect with the business via social media channels.
+   1. Clear product photography to help me in the buying process.
 
 - #### As a returning customer
    1. Be able to use the website on any device for my convenience whether i'm at home on my laptop or commuting to work on my mobile.
-   2. I want the product information to be clear and laid out in a way that i'm not left with any questions.
-   3. Site Navigation should be available at all times so I can easily navigate from one page to another.
+   1. I want the product information to be clear and laid out in a way that i'm not left with any questions.
+   1. Site Navigation should be available at all times so I can easily navigate from one page to another.
 
 WIth these user stories alongside my extensive experience of working in an E-commerce fashion website. I have tried to implement a slick easy to use customer experience.
 
