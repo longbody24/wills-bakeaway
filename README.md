@@ -108,13 +108,7 @@ I also shared my site with one of my peers who recentlty qualified from his cour
 * Site run through [WaveWebAccessibility](https://wave.webaim.org/) any errors corrected and retested.
 
 ### Bugs
-* One of the trickiest problem i found was around alignment during the project, in particular when it came to responsive design. My mentor pushed me in the direction of flex-box which although i don't think was covered in the course made things alot easier. In my research Bootstrap seemed to come up quite often and one of the course alumni told me that on his version of the course this was covered off before the first milestone project so i look forward to learning more about that.
-* Form Security. On the contact us page i introduced a very simplistic from but as highlighted earlier this is a non secure form. I did look to see if there was a way I could make it secure but again look likes technology i've yet to cover off .php? In addition it would be useful to add ReCaptcha to the form to prevent hackers bombarding the site with requests.
-* In general i found myself googling quite a lot to help resolves issues that I encountered along the way which i could not resolve by reviewing the relevant modules. Alongside reaching out to my peers on SLACK. Some of the key sites that I used were:
-    * [w3schools](https://www.w3schools.com/)
-    * [StackOverflow](https://stackoverflow.com/)
-    * [FreeCodeCamp](https://www.freecodecamp.org/news/)
-    * [CSSTricks](https://css-tricks.com/)
+* Embedding a reponsive youtube video has proven tricky, I have had to inplement a bit of a fudge managing the video size at various breakpoints rather than be truly reponsive. Tried various solutions found on Google & Slack but as of yet not joy.
 
 
 ### Future Releases
@@ -125,9 +119,6 @@ I also shared my site with one of my peers who recentlty qualified from his cour
 * Live Chat - Another useful feature to help customers convert.
 
 ## DEPLOYMENT
-
-
-
 
 Publishing LIVE version of site.
 
