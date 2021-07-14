@@ -63,10 +63,24 @@ I have run the site through [WaveWebAccessibility](https://wave.webaim.org/) and
 
 ### Wireframes
 * All wireframes were produced using AdobeXD although close to the final design there were some tweak alongs the design process.
-    * [LaptopWireframes]()
-    * [MobileWireframes]()
-    * [TabletWireframes]()
-
+    * Desktop
+        * [Home Page](assets/readme/wb_desktop_hp.jpg)
+        * [Product Listing Page](assets/readme/wb_desktop_plp.jpg)
+        * [Product Details Page](assets/readme/wb_desktop_pdp.jpg)
+        * [About Us](assets/readme/wb_desktop_about.jpg)
+        * [Contact Us](assets/readme/wb_desktop_contact.jpg)
+    * Tablet
+        * [Home Page](assets/readme/wb_tablet_hp.jpg)
+        * [Product Listing Page](assets/readme/wb_tablet_plp.jpg)
+        * [Product Details Page](assets/readme/wb_tablet_pdp.jpg)
+        * [About Us](assets/readme/wb_tablet_about.jpg)
+        * [Contact Us](assets/readme/wb_tablet_contact.jpg)
+    * Mobile
+        * [Home Page](assets/readme/wb_mobile_hp.jpg)
+        * [Product Listing Page](assets/readme/wb_mobile_plp.jpg)
+        * [Product Details Page](assets/readme/wb_mobile_pdp.jpg)
+        * [About Us](assets/readme/wb_mobile_about.jpg)
+        * [Contact Us](assets/readme/wb_mobile_contact.jpg)
 ### Responsiveness
 * All pages have been designed responsively to behave correctly no matter the design. On smaller mobile devices I decided to hide on of the main hero images to ensure the page depth was not too long.
 
