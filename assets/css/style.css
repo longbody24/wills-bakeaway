@@ -359,7 +359,7 @@ textarea {
 
 input[type=submit] {
     color: #340804;
-    background-color: #f2f2f2;
+    background-color: #fff;
     border: 1px solid #340804;
     padding: 10px 20px;
     text-transform: uppercase;
