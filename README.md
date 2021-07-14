@@ -22,18 +22,22 @@ Clear signposting will enable customers to get in contact with any questions and
    8. Clear product photography to help me in the buying process.
 
 - #### As a returning customer
-   1. Be able to use the website on any device for my convenience whether i'm at home or commuting to work.
+   1. Be able to use the website on any device for my convenience whether i'm at home on my laptop or commuting to work on my mobile.
    2. I want the product information to be clear and laid out in a way that i'm not left with any questions.
    3. Site Navigation should be available at all times so I can easily navigate from one page to another.
-   4. 
-1. New returning customers on landing on the site are clear about what the business offers.
-* New and returning customers are able to speedily navigate the site and view all available products.
-* If customers have any issues then they are able to quickly find contact details to reach out for help
 
-Using my experience of working in E-commerce fashion websites I have used this knowledge of customer UX to try to make the UX experience as slick as possible.
+WIth these user stories in my along side my extensive experience of working in E-commerce fashion websites I have tried to implement a slick easy to use customer experience.
 
 Wireframes for the both desktop & mobile can be found [Here](assets/Wireframes/Wills_Bakeaway_Wireframes.pdf)
 
+## DESIGN
+
+### Color Scheme
+* Have tried to keep the site relatively clean using the dark brown of the company Logo 
+
+#340804 - Button Hover, Footer Background
+#f2f2f2 - Button Text & Background Color
+#3a3a3a - Font colour & Borders
 
 ## SITE FEATURES
 
