@@ -3,12 +3,30 @@
 Deployed Website URL - https://longbody24.github.io/wills-bakeaway/
 
 ## INTRODUCTION
-Will's Bakeaway is a start up business selling both ready made brownies along with pre packed baking kits with ready measured ingredients and easy to follow instructions for customers try themselves at home or get little ones involved in baking for the first time. The Website will give the business an online prescence and enable customers to see exactly what kind of products are avaialble to them and also a little bit more about the company within the About Us page.
+Will's Bakeaway is a start up business (Set up by my cousin Will)  selling both ready made brownies along with pre measured baking kits with easy to follow instructions for customers to try themselves at home or get little ones involved in baking for the first time. The Website will give the business an online prescence and enable customers to see exactly what kind of products are avaialble to them and give them a little bit information about the company within the About Us page.
 
 Clear signposting will enable customers to get in contact with any questions and the site is responsive to allow customers to have a good user experience accross Mobile, Tablet and Desktop.
 
+
+## USER EXPERIENCE
+
 ### User Stories
-* New returning customers on landing on the site are clear about what the business offers.
+- #### As a new visitor seeing the site for the first time:
+   1. I want to easily understand the purpose and layout of the site.
+   2. Be able to intuitively navigate the site to browse all content.
+   3. Learn more about the business.
+   4. If I have any questions be able to find contact details easily.
+   5. Be able to view all products available.
+   6. Be able to drill down into individual products.
+   7. Easily connect with the business via social media channels.
+   8. Clear product photography to help me in the buying process.
+
+- #### As a returning customer
+   1. Be able to use the website on any device for my convenience whether i'm at home or commuting to work.
+   2. I want the product information to be clear and laid out in a way that i'm not left with any questions.
+   3. Site Navigation should be available at all times so I can easily navigate from one page to another.
+   4. 
+1. New returning customers on landing on the site are clear about what the business offers.
 * New and returning customers are able to speedily navigate the site and view all available products.
 * If customers have any issues then they are able to quickly find contact details to reach out for help
 
