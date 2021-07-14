@@ -174,12 +174,21 @@ Throghout the project I used a number of resources and tools to help me along my
 <a name="deployment"></a>
 ## DEPLOYMENT
 
+The site was developed using GitPod with the git stored locally before being pushed to a remote repository on GitHub.
+
+To move my code to the remote repository I:
+
+1. Saved any last changes I made to my code (ctrl s)
+1. Add these changes to the staging area using ```git add .``` from the root file
+1. Used the command ```git commit -m "last commit before deploy``` and hit enter.
+1. Then ```git push``` to send it over to the remote repository on Github
+
 Publishing LIVE version of site.
 
 1. Go to the remote repository at https://github.com/longbody24/wills-bakeaway hosted by GitHub
-2. Click "Settings"
-3. In "GitHub Pages", select a publishing source (master branch in the drop-down menu)
-4. The site is now published at https://longbody24.github.io/wills-bakeaway/
+1. Click "Settings"
+1. In "GitHub Pages", select a publishing source (master branch in the drop-down menu)
+1. The site is now published at https://longbody24.github.io/wills-bakeaway/
 
 <a name="credits"></a>
 ## CREDITS
