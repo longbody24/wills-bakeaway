@@ -142,9 +142,12 @@ Throghout the project I used a number of resources and tools to help me along my
 ### Accessibility Testing
 * Site run through [WaveWebAccessibility](https://wave.webaim.org/) any errors corrected and retested.
 
+### Usability Testing
+* I shared the site link with Friends and family accross a variety of devices and browsers. Other a few spelling mistakes an minor formatting issues no bugs were reported. All links and site navigation were reported to be working fine and contact us form submissions were successful.
+
 <a name="bugs"></a>
 ## BUGS
-* Embedding a reponsive youtube video has proven tricky, I have had to inplement a bit of a fudge managing the video size at various breakpoints rather than be truly reponsive. Tried various solutions found on Google & Slack but as of yet not joy.
+* No bugs as such reported. Not entirely happy with the embedded youtube video which is not behaving as repsonsive rather than being managed at various breakpoints which is not ideal.
 
 <a name="development"></a>
 ## FUTURE DEV
