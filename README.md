@@ -33,13 +33,23 @@ Wireframes for the both desktop & mobile can be found [Here](assets/Wireframes/W
 ## DESIGN
 
 ### Color Scheme
-* Have tried to keep the site relatively clean using only 3 colors the dark brown of the company Logo 
+* Have tried to keep the site relatively clean using only 3 colors the dark brown of the company Logo, a dark grey for the text and then a soft white for backgrounds and buttons and a a font contrast color.
+
+I have run the site through [WaveWebAccessibility](https://wave.webaim.org/) and no contrast issues were picked up.
 
  <img src="assets/readme/site-colors.png"/>
 
-#340804 - Button Hover, Footer Background
-#f2f2f2 - Button Text & Background Color
-#3a3a3a - Font colour & Borders
+### Typography
+* The main body font i chose was 'Nunito' with a sans-serif fallback.
+* The secondary font used for buttons was 'Lato' a sans-serif fallback.
+
+### Images
+* Strong product images were chosen to really sell the product to the use. All images were optimised by running through [tinyPNG](https://tinypng.com/) to ensure site speed was not impacted.
+* FREE icons for the benefit bar were sourced from [FontAwesome](https://fontawesome.com/) to add a bit more clarity to each benefit.
+
+### Wireframes
+* All wireframes were produced using AdobeXD although close to the final design there were some tweak alongs the design process.
+
 
 
 
@@ -93,6 +103,9 @@ I also shared my site with one of my peers who recentlty qualified from his cour
 * CSS
     * All CSS was run through [jigsaw.w3.org](https://jigsaw.w3.org/css-validator/) No errors were passed.
 
+
+### Accessibility Testing
+* Site run through [WaveWebAccessibility](https://wave.webaim.org/) any errors corrected and retested.
 
 ### Bugs
 * One of the trickiest problem i found was around alignment during the project, in particular when it came to responsive design. My mentor pushed me in the direction of flex-box which although i don't think was covered in the course made things alot easier. In my research Bootstrap seemed to come up quite often and one of the course alumni told me that on his version of the course this was covered off before the first milestone project so i look forward to learning more about that.
