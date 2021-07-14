@@ -2,7 +2,7 @@
 
 Deployed Website URL - https://longbody24.github.io/wills-bakeaway/
 
-<img src="assets/readme/wb_all_devices.jpg"/>
+<img src="assets/readme/wb_all_devices.jpg" width="800px">
 
 
 ## INTRODUCTION
